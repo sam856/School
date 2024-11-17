@@ -1,0 +1,17 @@
+E:\C#\SchoolProject\SchoolProject.Infrastruture\bin\Debug\net7.0\SchoolProject.Infrastruture.deps.json
+E:\C#\SchoolProject\SchoolProject.Infrastruture\bin\Debug\net7.0\SchoolProject.Infrastruture.runtimeconfig.json
+E:\C#\SchoolProject\SchoolProject.Infrastruture\bin\Debug\net7.0\SchoolProject.Infrastruture.dll
+E:\C#\SchoolProject\SchoolProject.Infrastruture\bin\Debug\net7.0\SchoolProject.Infrastruture.pdb
+E:\C#\SchoolProject\SchoolProject.Infrastruture\bin\Debug\net7.0\SchoolProject.Data.dll
+E:\C#\SchoolProject\SchoolProject.Infrastruture\bin\Debug\net7.0\SchoolProject.Data.pdb
+E:\C#\SchoolProject\SchoolProject.Infrastruture\obj\Debug\net7.0\SchoolProject.Infrastruture.csproj.AssemblyReference.cache
+E:\C#\SchoolProject\SchoolProject.Infrastruture\obj\Debug\net7.0\SchoolProject.Infrastruture.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\SchoolProject\SchoolProject.Infrastruture\obj\Debug\net7.0\SchoolProject.Infrastruture.AssemblyInfoInputs.cache
+E:\C#\SchoolProject\SchoolProject.Infrastruture\obj\Debug\net7.0\SchoolProject.Infrastruture.AssemblyInfo.cs
+E:\C#\SchoolProject\SchoolProject.Infrastruture\obj\Debug\net7.0\SchoolProject.Infrastruture.csproj.CoreCompileInputs.cache
+E:\C#\SchoolProject\SchoolProject.Infrastruture\obj\Debug\net7.0\SchoolProject.Infrastruture.csproj.CopyComplete
+E:\C#\SchoolProject\SchoolProject.Infrastruture\obj\Debug\net7.0\SchoolProject.Infrastruture.dll
+E:\C#\SchoolProject\SchoolProject.Infrastruture\obj\Debug\net7.0\refint\SchoolProject.Infrastruture.dll
+E:\C#\SchoolProject\SchoolProject.Infrastruture\obj\Debug\net7.0\SchoolProject.Infrastruture.pdb
+E:\C#\SchoolProject\SchoolProject.Infrastruture\obj\Debug\net7.0\SchoolProject.Infrastruture.genruntimeconfig.cache
+E:\C#\SchoolProject\SchoolProject.Infrastruture\obj\Debug\net7.0\ref\SchoolProject.Infrastruture.dll

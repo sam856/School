@@ -1,0 +1,17 @@
+E:\C#\SchoolProject\SchoolProject.Services\bin\Debug\net7.0\SchoolProject.Services.deps.json
+E:\C#\SchoolProject\SchoolProject.Services\bin\Debug\net7.0\SchoolProject.Services.dll
+E:\C#\SchoolProject\SchoolProject.Services\bin\Debug\net7.0\SchoolProject.Services.pdb
+E:\C#\SchoolProject\SchoolProject.Services\bin\Debug\net7.0\SchoolProject.Data.dll
+E:\C#\SchoolProject\SchoolProject.Services\bin\Debug\net7.0\SchoolProject.Infrastruture.dll
+E:\C#\SchoolProject\SchoolProject.Services\bin\Debug\net7.0\SchoolProject.Data.pdb
+E:\C#\SchoolProject\SchoolProject.Services\bin\Debug\net7.0\SchoolProject.Infrastruture.pdb
+E:\C#\SchoolProject\SchoolProject.Services\obj\Debug\net7.0\SchoolProject.Services.csproj.AssemblyReference.cache
+E:\C#\SchoolProject\SchoolProject.Services\obj\Debug\net7.0\SchoolProject.Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\SchoolProject\SchoolProject.Services\obj\Debug\net7.0\SchoolProject.Services.AssemblyInfoInputs.cache
+E:\C#\SchoolProject\SchoolProject.Services\obj\Debug\net7.0\SchoolProject.Services.AssemblyInfo.cs
+E:\C#\SchoolProject\SchoolProject.Services\obj\Debug\net7.0\SchoolProject.Services.csproj.CoreCompileInputs.cache
+E:\C#\SchoolProject\SchoolProject.Services\obj\Debug\net7.0\SchoolProject.Services.csproj.CopyComplete
+E:\C#\SchoolProject\SchoolProject.Services\obj\Debug\net7.0\SchoolProject.Services.dll
+E:\C#\SchoolProject\SchoolProject.Services\obj\Debug\net7.0\refint\SchoolProject.Services.dll
+E:\C#\SchoolProject\SchoolProject.Services\obj\Debug\net7.0\SchoolProject.Services.pdb
+E:\C#\SchoolProject\SchoolProject.Services\obj\Debug\net7.0\ref\SchoolProject.Services.dll

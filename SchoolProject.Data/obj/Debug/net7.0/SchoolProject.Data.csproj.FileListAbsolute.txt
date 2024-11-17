@@ -1,0 +1,14 @@
+E:\C#\SchoolProject\SchoolProject.Data\bin\Debug\net7.0\SchoolProject.Data.deps.json
+E:\C#\SchoolProject\SchoolProject.Data\bin\Debug\net7.0\SchoolProject.Data.runtimeconfig.json
+E:\C#\SchoolProject\SchoolProject.Data\bin\Debug\net7.0\SchoolProject.Data.dll
+E:\C#\SchoolProject\SchoolProject.Data\bin\Debug\net7.0\SchoolProject.Data.pdb
+E:\C#\SchoolProject\SchoolProject.Data\obj\Debug\net7.0\SchoolProject.Data.csproj.AssemblyReference.cache
+E:\C#\SchoolProject\SchoolProject.Data\obj\Debug\net7.0\SchoolProject.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\SchoolProject\SchoolProject.Data\obj\Debug\net7.0\SchoolProject.Data.AssemblyInfoInputs.cache
+E:\C#\SchoolProject\SchoolProject.Data\obj\Debug\net7.0\SchoolProject.Data.AssemblyInfo.cs
+E:\C#\SchoolProject\SchoolProject.Data\obj\Debug\net7.0\SchoolProject.Data.csproj.CoreCompileInputs.cache
+E:\C#\SchoolProject\SchoolProject.Data\obj\Debug\net7.0\SchoolProject.Data.dll
+E:\C#\SchoolProject\SchoolProject.Data\obj\Debug\net7.0\refint\SchoolProject.Data.dll
+E:\C#\SchoolProject\SchoolProject.Data\obj\Debug\net7.0\SchoolProject.Data.pdb
+E:\C#\SchoolProject\SchoolProject.Data\obj\Debug\net7.0\SchoolProject.Data.genruntimeconfig.cache
+E:\C#\SchoolProject\SchoolProject.Data\obj\Debug\net7.0\ref\SchoolProject.Data.dll
