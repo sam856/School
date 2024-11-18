@@ -123,6 +123,12 @@
   <data name="Deleted" xml:space="preserve">
     <value>Deleted Successfully</value>
   </data>
+  <data name="DepartmementId" xml:space="preserve">
+    <value>The Number Of Department</value>
+  </data>
+  <data name="IsNotExist" xml:space="preserve">
+    <value>this Object isnot Exixt</value>
+  </data>
   <data name="NotEmpty" xml:space="preserve">
     <value>Cannot be Empty</value>
   </data>

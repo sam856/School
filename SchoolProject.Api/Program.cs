@@ -33,9 +33,27 @@ public class Program
         #region Dependency Injection
         builder.Services.AddInfrastrucureDependiences()
             .AddServicesBuilder()
-        .AddCoreDependenices();
+        .AddCoreDependenices()
+        .AddServicesRegestration();
 
         #endregion
+
+
+        #region AllowCORS
+        var CORS = "_cors";
+        builder.Services.AddCors(options =>
+        {
+            options.AddPolicy(name: CORS,
+                              policy =>
+                              {
+                                  policy.AllowAnyHeader();
+                                  policy.AllowAnyMethod();
+                                  policy.AllowAnyOrigin();
+                              });
+        });
+
+        #endregion
+
 
         #region  localization
         builder.Services.AddControllersWithViews();
@@ -69,7 +87,8 @@ public class Program
         }
 
         app.UseHttpsRedirection();
-
+        app.UseCors(CORS);
+        app.UseStaticFiles();
 
 
         app.UseMiddleware<ErrorHandlerMiddleware>();

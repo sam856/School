@@ -11,14 +11,17 @@ namespace SchoolProject.Core.Feature.Stduent.Commands.Validation
         #region Fields
         private readonly IStudentServies studentServies;
         private readonly IStringLocalizer<SharedResources> localizer;
+        private readonly IDepartmentServies departmentServies;
+
         #endregion
 
         #region Constractor
 
-        public AddStudentVaildatior(IStudentServies studentServies, IStringLocalizer<SharedResources> localizer)
+        public AddStudentVaildatior(IStudentServies studentServies, IStringLocalizer<SharedResources> localizer, IDepartmentServies departmentServies)
         {
             this.studentServies = studentServies;
             this.localizer = localizer;
+            this.departmentServies = departmentServies;
             ApplyValidationRules();
 
 
@@ -43,6 +46,9 @@ namespace SchoolProject.Core.Feature.Stduent.Commands.Validation
                .NotNull().WithMessage("Adress Must not be Null")
                .MaximumLength(20).WithMessage("Max Length is 20");
 
+            RuleFor(x => x.DiD).NotEmpty().WithMessage(localizer[SharedResourcesKeys.NotEmpty])
+            .NotNull().WithMessage("Department Must not be Null");
+
 
         }
 
@@ -55,6 +61,14 @@ namespace SchoolProject.Core.Feature.Stduent.Commands.Validation
 
             RuleFor(x => x.NameEn).MustAsync(async (Key, CancellationToken) => !await studentServies.NameIsExist(Key))
               .WithMessage("Name is Exist");
+
+
+
+            RuleFor(x => x.DiD).MustAsync(async (Key, CancellationToken) => await departmentServies.DepartmentIsExist(Key))
+         .WithMessage(localizer[SharedResourcesKeys.IsNotExist]);
+
+
+
 
         }
         #endregion

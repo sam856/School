@@ -38,7 +38,16 @@ namespace SchoolProject.Services.Implementatios
 
 
             return Departmentstudent;
+        }
 
+        public async Task<bool> DepartmentIsExist(int id)
+        {
+            var Departmentstudent = await departmentRepositiry
+                .GetTableNoTracking().Where(x => x.DID.Equals(id)).FirstOrDefaultAsync();
+
+            if (Departmentstudent == null)
+                return false;
+            return true;
         }
         #endregion
 

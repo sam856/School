@@ -123,6 +123,12 @@
   <data name="Deleted" xml:space="preserve">
     <value>تم الحذف بنجاح</value>
   </data>
+  <data name="DepartmementId" xml:space="preserve">
+    <value>رقم القسم</value>
+  </data>
+  <data name="IsNotExist" xml:space="preserve">
+    <value>هذا العنصر غير موجود</value>
+  </data>
   <data name="NotEmpty" xml:space="preserve">
     <value>لا يمكن ترك العنصر فارغا</value>
   </data>
