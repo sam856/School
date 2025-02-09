@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "6I1+kfL3lH36wXIwMLqMG/kcP4WXAuqMIc3ZsKfTUUU=",
+  "Hash": "zwWS8fgsIKqN+cba3V9BTEugWjc69nIH4yGGfAN4vT4=",
   "Source": "SchoolProject.Api",
   "BasePath": "_content/SchoolProject.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

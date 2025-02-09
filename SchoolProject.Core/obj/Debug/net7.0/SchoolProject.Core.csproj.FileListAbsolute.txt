@@ -10,6 +10,7 @@ E:\C#\SchoolProject\SchoolProject.Core\bin\Debug\net7.0\SchoolProject.Data.pdb
 E:\C#\SchoolProject\SchoolProject.Core\bin\Debug\net7.0\SchoolProject.Infrastruture.pdb
 E:\C#\SchoolProject\SchoolProject.Core\bin\Debug\net7.0\SchoolProject.Services.pdb
 E:\C#\SchoolProject\SchoolProject.Core\obj\Debug\net7.0\SchoolProject.Core.csproj.AssemblyReference.cache
+E:\C#\SchoolProject\SchoolProject.Core\obj\Debug\net7.0\SchoolProject.Core.Resources.SharedResources.resources
 E:\C#\SchoolProject\SchoolProject.Core\obj\Debug\net7.0\SchoolProject.Core.Resources.SharedResources.ar.resources
 E:\C#\SchoolProject\SchoolProject.Core\obj\Debug\net7.0\SchoolProject.Core.Resources.SharedResources.en.resources
 E:\C#\SchoolProject\SchoolProject.Core\obj\Debug\net7.0\SchoolProject.Core.csproj.GenerateResource.cache
@@ -17,9 +18,10 @@ E:\C#\SchoolProject\SchoolProject.Core\obj\Debug\net7.0\SchoolProject.Core.Gener
 E:\C#\SchoolProject\SchoolProject.Core\obj\Debug\net7.0\SchoolProject.Core.AssemblyInfoInputs.cache
 E:\C#\SchoolProject\SchoolProject.Core\obj\Debug\net7.0\SchoolProject.Core.AssemblyInfo.cs
 E:\C#\SchoolProject\SchoolProject.Core\obj\Debug\net7.0\SchoolProject.Core.csproj.CoreCompileInputs.cache
+E:\C#\SchoolProject\SchoolProject.Core\obj\Debug\net7.0\SchoolProject.Core.sourcelink.json
 E:\C#\SchoolProject\SchoolProject.Core\obj\Debug\net7.0\ar\SchoolProject.Core.resources.dll
 E:\C#\SchoolProject\SchoolProject.Core\obj\Debug\net7.0\en\SchoolProject.Core.resources.dll
-E:\C#\SchoolProject\SchoolProject.Core\obj\Debug\net7.0\SchoolProject.Core.csproj.CopyComplete
+E:\C#\SchoolProject\SchoolProject.Core\obj\Debug\net7.0\SchoolPr.1F8A3534.Up2Date
 E:\C#\SchoolProject\SchoolProject.Core\obj\Debug\net7.0\SchoolProject.Core.dll
 E:\C#\SchoolProject\SchoolProject.Core\obj\Debug\net7.0\refint\SchoolProject.Core.dll
 E:\C#\SchoolProject\SchoolProject.Core\obj\Debug\net7.0\SchoolProject.Core.pdb

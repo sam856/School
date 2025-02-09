@@ -7,6 +7,7 @@ E:\C#\SchoolProject\SchoolProject.Data\obj\Debug\net7.0\SchoolProject.Data.Gener
 E:\C#\SchoolProject\SchoolProject.Data\obj\Debug\net7.0\SchoolProject.Data.AssemblyInfoInputs.cache
 E:\C#\SchoolProject\SchoolProject.Data\obj\Debug\net7.0\SchoolProject.Data.AssemblyInfo.cs
 E:\C#\SchoolProject\SchoolProject.Data\obj\Debug\net7.0\SchoolProject.Data.csproj.CoreCompileInputs.cache
+E:\C#\SchoolProject\SchoolProject.Data\obj\Debug\net7.0\SchoolProject.Data.sourcelink.json
 E:\C#\SchoolProject\SchoolProject.Data\obj\Debug\net7.0\SchoolProject.Data.dll
 E:\C#\SchoolProject\SchoolProject.Data\obj\Debug\net7.0\refint\SchoolProject.Data.dll
 E:\C#\SchoolProject\SchoolProject.Data\obj\Debug\net7.0\SchoolProject.Data.pdb

@@ -117,14 +117,32 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AddFailed" xml:space="preserve">
+    <value>Added is Failed</value>
+  </data>
+  <data name="AlgorithmIsWrong" xml:space="preserve">
+    <value>the algorthim is wrong</value>
+  </data>
+  <data name="ChangePassFailed" xml:space="preserve">
+    <value>Failed To Change Password</value>
+  </data>
   <data name="Created" xml:space="preserve">
     <value>Created Sucessfully</value>
   </data>
   <data name="Deleted" xml:space="preserve">
     <value>Deleted Successfully</value>
   </data>
+  <data name="DeletedFailed" xml:space="preserve">
+    <value>Object Cannot be Deleted</value>
+  </data>
   <data name="DepartmementId" xml:space="preserve">
     <value>The Number Of Department</value>
+  </data>
+  <data name="EmailIsExist" xml:space="preserve">
+    <value>This Email is Exsit</value>
+  </data>
+  <data name="FaildToAddUser" xml:space="preserve">
+    <value>Faild To Create User</value>
   </data>
   <data name="IsNotExist" xml:space="preserve">
     <value>this Object isnot Exixt</value>
@@ -135,13 +153,43 @@
   <data name="NotFound" xml:space="preserve">
     <value>this Object not found</value>
   </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PasswordNotCorrect" xml:space="preserve">
+    <value>Password Not Correct</value>
+  </data>
+  <data name="PasswordNotEqualConfirmPass" xml:space="preserve">
+    <value>Password and Confirmed Password don't Match</value>
+  </data>
+  <data name="RefreshTokenIsExpired" xml:space="preserve">
+    <value>refreshtoken is not found</value>
+  </data>
+  <data name="RefreshTokenIsNotFound" xml:space="preserve">
+    <value>refrehtoken is not found</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>this is Required</value>
+  </data>
+  <data name="RoleIsUsed" xml:space="preserve">
+    <value>Role is Used</value>
   </data>
   <data name="Success" xml:space="preserve">
     <value>the Process is Success</value>
   </data>
   <data name="Updated" xml:space="preserve">
     <value>Updated Successfully</value>
+  </data>
+  <data name="UpdateFailed" xml:space="preserve">
+    <value>Object Cannotbe Updated</value>
+  </data>
+  <data name="UserIsNotFound" xml:space="preserve">
+    <value>User Not Found</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="UserNameIsExist" xml:space="preserve">
+    <value>This Name is Exsit</value>
   </data>
 </root>

@@ -15,6 +15,8 @@ namespace SchoolProject.Infrastruture
             services.AddScoped<IDepartmentRepositiry, DepartmentRepositiry>();
             services.AddScoped<IInstractorRepositiry, InstractorRepositiry>();
             services.AddScoped<ISubjectRepositiry, SubjectRepositiry>();
+            services.AddScoped<IRefreshTokenRepositiry, RefreshTokenRepositiry>();
+
 
 
 

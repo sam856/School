@@ -1,24 +1,26 @@
 
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using SchoolProject.Core;
 using SchoolProject.Core.MiddelWare;
+using SchoolProject.Data.Entites.Identity;
 using SchoolProject.Infrastruture;
 using SchoolProject.Infrastruture.Context;
+using SchoolProject.Infrastruture.DataSeeder;
 using SchoolProject.Services;
 using System.Globalization;
 
 public class Program
 {
-    public static void Main(string[] args)
+    public static async Task Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
 
         // Add services to the container.
 
         builder.Services.AddControllers();
-        // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
 
@@ -34,7 +36,7 @@ public class Program
         builder.Services.AddInfrastrucureDependiences()
             .AddServicesBuilder()
         .AddCoreDependenices()
-        .AddServicesRegestration();
+        .AddServicesRegestration(builder.Configuration);
 
         #endregion
 
@@ -79,6 +81,13 @@ public class Program
 
         var app = builder.Build();
 
+        using (var scope = app.Services.CreateScope())
+        {
+            var userManger = scope.ServiceProvider.GetRequiredService<UserManager<User>>();
+            var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<Role>>();
+            await RoleSeeder.SeedingUser(roleManager);
+            await UserSeeder.SeedingUser(userManger);
+        }
         // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())
         {
@@ -86,12 +95,7 @@ public class Program
             app.UseSwaggerUI();
         }
 
-        app.UseHttpsRedirection();
-        app.UseCors(CORS);
-        app.UseStaticFiles();
 
-
-        app.UseMiddleware<ErrorHandlerMiddleware>();
         #region Localization Middleware
 
         var options = app.Services.GetService<IOptions<RequestLocalizationOptions>>();
@@ -99,6 +103,14 @@ public class Program
         #endregion
 
 
+        app.UseMiddleware<ErrorHandlerMiddleware>();
+
+        app.UseHttpsRedirection();
+        app.UseCors(CORS);
+        app.UseStaticFiles();
+
+        app.UseAuthentication();
+        app.UseAuthorization();
 
 
         app.MapControllers();

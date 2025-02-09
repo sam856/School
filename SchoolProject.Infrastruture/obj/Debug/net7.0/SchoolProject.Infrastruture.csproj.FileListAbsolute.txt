@@ -9,7 +9,8 @@ E:\C#\SchoolProject\SchoolProject.Infrastruture\obj\Debug\net7.0\SchoolProject.I
 E:\C#\SchoolProject\SchoolProject.Infrastruture\obj\Debug\net7.0\SchoolProject.Infrastruture.AssemblyInfoInputs.cache
 E:\C#\SchoolProject\SchoolProject.Infrastruture\obj\Debug\net7.0\SchoolProject.Infrastruture.AssemblyInfo.cs
 E:\C#\SchoolProject\SchoolProject.Infrastruture\obj\Debug\net7.0\SchoolProject.Infrastruture.csproj.CoreCompileInputs.cache
-E:\C#\SchoolProject\SchoolProject.Infrastruture\obj\Debug\net7.0\SchoolProject.Infrastruture.csproj.CopyComplete
+E:\C#\SchoolProject\SchoolProject.Infrastruture\obj\Debug\net7.0\SchoolProject.Infrastruture.sourcelink.json
+E:\C#\SchoolProject\SchoolProject.Infrastruture\obj\Debug\net7.0\SchoolPr.75CAC4F8.Up2Date
 E:\C#\SchoolProject\SchoolProject.Infrastruture\obj\Debug\net7.0\SchoolProject.Infrastruture.dll
 E:\C#\SchoolProject\SchoolProject.Infrastruture\obj\Debug\net7.0\refint\SchoolProject.Infrastruture.dll
 E:\C#\SchoolProject\SchoolProject.Infrastruture\obj\Debug\net7.0\SchoolProject.Infrastruture.pdb

@@ -213,7 +213,6 @@ namespace SchoolProject.Infrastruture.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Address")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ConcurrencyStamp")
@@ -221,7 +220,6 @@ namespace SchoolProject.Infrastruture.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Country")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
@@ -230,6 +228,10 @@ namespace SchoolProject.Infrastruture.Migrations
 
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
+
+                    b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
@@ -275,6 +277,48 @@ namespace SchoolProject.Infrastruture.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+                });
+
+            modelBuilder.Entity("SchoolProject.Data.Entites.Identity.UserRefreshToken", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("AddedTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("ExpiredTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsExpired")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsRevoked")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsUsed")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("JWTId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RefreshToken")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Token")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("userRefreshTokens");
                 });
 
             modelBuilder.Entity("SchoolProject.Data.Entites.Ins_Subject", b =>
@@ -490,6 +534,17 @@ namespace SchoolProject.Infrastruture.Migrations
                     b.Navigation("Subjects");
                 });
 
+            modelBuilder.Entity("SchoolProject.Data.Entites.Identity.UserRefreshToken", b =>
+                {
+                    b.HasOne("SchoolProject.Data.Entites.Identity.User", "User")
+                        .WithMany("RefreshTokens")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("SchoolProject.Data.Entites.Ins_Subject", b =>
                 {
                     b.HasOne("SchoolProject.Data.Entites.Instructor", "instructor")
@@ -560,6 +615,11 @@ namespace SchoolProject.Infrastruture.Migrations
                     b.Navigation("Instructors");
 
                     b.Navigation("Students");
+                });
+
+            modelBuilder.Entity("SchoolProject.Data.Entites.Identity.User", b =>
+                {
+                    b.Navigation("RefreshTokens");
                 });
 
             modelBuilder.Entity("SchoolProject.Data.Entites.Instructor", b =>

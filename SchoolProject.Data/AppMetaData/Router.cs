@@ -35,5 +35,55 @@
 
 
         }
+
+
+        public static class ApplicationUser
+        {
+
+
+            public const string Prefix = Rule + "ApplicationUser";
+            public const string Create = Prefix + "/Create";
+            public const string Pagnation = Prefix + "/Pagnation";
+            public const string GetById = Prefix + SymbolId;
+            public const string Edit = Prefix + "/Edit";
+            public const string Delete = Prefix + "/Delete" + SymbolId;
+            public const string ChangePassword = Prefix + "/Change-Password";
+
+
+
+
+
+
+
+        }
+
+        public static class Authentication
+        {
+            public const string Prefix = Rule + "Authentication";
+            public const string SignIn = Prefix + "/SignIn";
+            public const string RefreshToken = Prefix + "/RefreshToken";
+            public const string ValidateToken = Prefix + "/ValidateToken";
+
+
+        }
+
+        public static class Authorize
+        {
+            public const string Prefix = Rule + "Autorization";
+            public const string Create = Prefix + "/Add";
+            public const string Edit = Prefix + "/Update";
+            public const string Delete = Prefix + "/Delete" + SymbolId;
+            public const string AllRoles = Prefix + "/AllRoles";
+            public const string GetById = Prefix + "/GetById" + SymbolId;
+            public const string ManageUserRoles = Prefix + "/ManageUserRoles";
+
+
+
+
+
+        }
+
+
+
     }
 }

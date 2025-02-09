@@ -1,0 +1,371 @@
+[
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.ApplicationUserController",
+    "Method": "GetUserByIdApi",
+    "RelativePath": "api/ApplicationUser/Api/V1/ApplicationUser/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.ApplicationUserController",
+    "Method": "ChangeUserPassword",
+    "RelativePath": "api/ApplicationUser/Api/V1/ApplicationUser/Change-Password",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userCommand",
+        "Type": "SchoolProject.Core.Feature.Users.Commands.Models.ChangeUserPasswordCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.ApplicationUserController",
+    "Method": "AddStudent",
+    "RelativePath": "api/ApplicationUser/Api/V1/ApplicationUser/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentCommand",
+        "Type": "SchoolProject.Core.Feature.Users.Commands.Models.AddUserCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.ApplicationUserController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/ApplicationUser/Api/V1/ApplicationUser/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.ApplicationUserController",
+    "Method": "EditUser",
+    "RelativePath": "api/ApplicationUser/Api/V1/ApplicationUser/Edit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userCommand",
+        "Type": "SchoolProject.Core.Feature.Users.Commands.Models.EditUsersCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.ApplicationUserController",
+    "Method": "GetStudentPagnationsList",
+    "RelativePath": "api/ApplicationUser/Api/V1/ApplicationUser/Pagnation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.AuthenticationController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/Authentication/Api/V1/Authentication/RefreshToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AccessToken",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RefreshToken",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.AuthenticationController",
+    "Method": "Create",
+    "RelativePath": "api/Authentication/Api/V1/Authentication/SignIn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.AuthenticationController",
+    "Method": "ValidateToken",
+    "RelativePath": "api/Authentication/Api/V1/Authentication/ValidateToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AccessToken",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.AuthroziationController",
+    "Method": "Create",
+    "RelativePath": "api/Authroziation/Api/V1/Autorization/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoleName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.AuthroziationController",
+    "Method": "GetAll",
+    "RelativePath": "api/Authroziation/Api/V1/Autorization/AllRoles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.AuthroziationController",
+    "Method": "Delete",
+    "RelativePath": "api/Authroziation/Api/V1/Autorization/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.AuthroziationController",
+    "Method": "GetAll",
+    "RelativePath": "api/Authroziation/Api/V1/Autorization/GetById/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.AuthroziationController",
+    "Method": "Update",
+    "RelativePath": "api/Authroziation/Api/V1/Autorization/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.DepartmentController",
+    "Method": "GetDepartmentById",
+    "RelativePath": "api/Department/Api/V1/Department/Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "StudentPageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "StudentPageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.StudentController",
+    "Method": "GetStudentById",
+    "RelativePath": "api/Student/Api/V1/Stduent/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.StudentController",
+    "Method": "AddStudent",
+    "RelativePath": "api/Student/Api/V1/Stduent/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentCommand",
+        "Type": "SchoolProject.Core.Feature.Stduent.Commands.Models.AddStudentCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.StudentController",
+    "Method": "DeleteStudent",
+    "RelativePath": "api/Student/Api/V1/Stduent/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.StudentController",
+    "Method": "EditStudent",
+    "RelativePath": "api/Student/Api/V1/Stduent/Edit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentCommand",
+        "Type": "SchoolProject.Core.Feature.Stduent.Commands.Models.EditStudentCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.StudentController",
+    "Method": "GetStudentsList",
+    "RelativePath": "api/Student/Api/V1/Stduent/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.StudentController",
+    "Method": "GetStudentPagnationsList",
+    "RelativePath": "api/Student/Api/V1/Stduent/Pagnation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderBy",
+        "Type": "SchoolProject.Data.Helper.OrderingStudentEnum",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

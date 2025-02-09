@@ -1,0 +1,487 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\C#\\SchoolProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD9A3DA-016C-4260-BD50-E05B6399993E}|SchoolProject.Api\\SchoolProject.Api.csproj|e:\\c#\\schoolproject\\schoolproject.api\\controllers\\authroziationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD9A3DA-016C-4260-BD50-E05B6399993E}|SchoolProject.Api\\SchoolProject.Api.csproj|solutionrelative:schoolproject.api\\controllers\\authroziationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{706F6B3D-C7C7-4800-82EB-CCC659159595}|SchoolProject.Data\\SchoolProject.Data.csproj|e:\\c#\\schoolproject\\schoolproject.data\\appmetadata\\router.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{706F6B3D-C7C7-4800-82EB-CCC659159595}|SchoolProject.Data\\SchoolProject.Data.csproj|solutionrelative:schoolproject.data\\appmetadata\\router.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\feature\\authorazion\\queries\\handler\\rolequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\feature\\authorazion\\queries\\handler\\rolequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\feature\\authorazion\\command\\handler\\rolecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\feature\\authorazion\\command\\handler\\rolecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\feature\\authorazion\\queries\\modling\\getrolebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\feature\\authorazion\\queries\\modling\\getrolebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\mapping\\roles\\roleprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\mapping\\roles\\roleprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\mapping\\roles\\queries\\getrolebyidmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\mapping\\roles\\queries\\getrolebyidmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\mapping\\roles\\queries\\getrolemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\mapping\\roles\\queries\\getrolemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\results\\getrolebyiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\results\\getrolebyiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|e:\\c#\\schoolproject\\schoolproject.services\\implementatios\\auzorizationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|solutionrelative:schoolproject.services\\implementatios\\auzorizationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|e:\\c#\\schoolproject\\schoolproject.services\\abstract\\iauthorizationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|solutionrelative:schoolproject.services\\abstract\\iauthorizationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|e:\\c#\\schoolproject\\schoolproject.services\\implementatios\\authenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|solutionrelative:schoolproject.services\\implementatios\\authenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33157CB5-4DDE-45B0-AC06-3DE0DBCD6570}|SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj|e:\\c#\\schoolproject\\schoolproject.infrastruture\\dataseeder\\userseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33157CB5-4DDE-45B0-AC06-3DE0DBCD6570}|SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj|solutionrelative:schoolproject.infrastruture\\dataseeder\\userseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|e:\\c#\\schoolproject\\schoolproject.services\\abstract\\iauthenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|solutionrelative:schoolproject.services\\abstract\\iauthenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\results\\getroleslistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\results\\getroleslistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\feature\\authorazion\\command\\models\\deleterolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\feature\\authorazion\\command\\models\\deleterolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\feature\\authorazion\\command\\validation\\editrolevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\feature\\authorazion\\command\\validation\\editrolevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33157CB5-4DDE-45B0-AC06-3DE0DBCD6570}|SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj|e:\\c#\\schoolproject\\schoolproject.infrastruture\\servicesregestration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33157CB5-4DDE-45B0-AC06-3DE0DBCD6570}|SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj|solutionrelative:schoolproject.infrastruture\\servicesregestration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD9A3DA-016C-4260-BD50-E05B6399993E}|SchoolProject.Api\\SchoolProject.Api.csproj|e:\\c#\\schoolproject\\schoolproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD9A3DA-016C-4260-BD50-E05B6399993E}|SchoolProject.Api\\SchoolProject.Api.csproj|solutionrelative:schoolproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33157CB5-4DDE-45B0-AC06-3DE0DBCD6570}|SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj|e:\\c#\\schoolproject\\schoolproject.infrastruture\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33157CB5-4DDE-45B0-AC06-3DE0DBCD6570}|SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj|solutionrelative:schoolproject.infrastruture\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|e:\\c#\\schoolproject\\schoolproject.services\\moduleservicesbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|solutionrelative:schoolproject.services\\moduleservicesbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33157CB5-4DDE-45B0-AC06-3DE0DBCD6570}|SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj|e:\\c#\\schoolproject\\schoolproject.infrastruture\\moduleinfrastrucuredependiences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33157CB5-4DDE-45B0-AC06-3DE0DBCD6570}|SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj|solutionrelative:schoolproject.infrastruture\\moduleinfrastrucuredependiences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\feature\\users\\commands\\models\\deleteusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\feature\\users\\commands\\models\\deleteusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\feature\\users\\commands\\models\\edituserscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\feature\\users\\commands\\models\\edituserscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD9A3DA-016C-4260-BD50-E05B6399993E}|SchoolProject.Api\\SchoolProject.Api.csproj|e:\\c#\\schoolproject\\schoolproject.api\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD9A3DA-016C-4260-BD50-E05B6399993E}|SchoolProject.Api\\SchoolProject.Api.csproj|solutionrelative:schoolproject.api\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthroziationController.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Api\\Controllers\\AuthroziationController.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Api\\Controllers\\AuthroziationController.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Api\\Controllers\\AuthroziationController.cs",
+              "RelativeToolTip": "SchoolProject.Api\\Controllers\\AuthroziationController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwC8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T14:57:55.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoleCommandHandler.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Authorazion\\Command\\Handler\\RoleCommandHandler.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Feature\\Authorazion\\Command\\Handler\\RoleCommandHandler.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Authorazion\\Command\\Handler\\RoleCommandHandler.cs",
+              "RelativeToolTip": "SchoolProject.Core\\Feature\\Authorazion\\Command\\Handler\\RoleCommandHandler.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwEQAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T14:54:53.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetRoleByIdCommand.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Authorazion\\Queries\\Modling\\GetRoleByIdCommand.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Feature\\Authorazion\\Queries\\Modling\\GetRoleByIdCommand.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Authorazion\\Queries\\Modling\\GetRoleByIdCommand.cs",
+              "RelativeToolTip": "SchoolProject.Core\\Feature\\Authorazion\\Queries\\Modling\\GetRoleByIdCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T14:51:20.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RoleProfile.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Mapping\\Roles\\RoleProfile.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Mapping\\Roles\\RoleProfile.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Mapping\\Roles\\RoleProfile.cs",
+              "RelativeToolTip": "SchoolProject.Core\\Mapping\\Roles\\RoleProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T14:50:00.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetRoleByIdMapping.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Mapping\\Roles\\Queries\\GetRoleByIdMapping.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Mapping\\Roles\\Queries\\GetRoleByIdMapping.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Mapping\\Roles\\Queries\\GetRoleByIdMapping.cs",
+              "RelativeToolTip": "SchoolProject.Core\\Mapping\\Roles\\Queries\\GetRoleByIdMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T14:49:35.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetRoleByIdDto.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Results\\GetRoleByIdDto.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Results\\GetRoleByIdDto.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Results\\GetRoleByIdDto.cs",
+              "RelativeToolTip": "SchoolProject.Core\\Results\\GetRoleByIdDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T14:47:53.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Router.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Data\\AppMetaData\\Router.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Data\\AppMetaData\\Router.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Data\\AppMetaData\\Router.cs",
+              "RelativeToolTip": "SchoolProject.Data\\AppMetaData\\Router.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAawFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T14:26:56.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoleQueryHandler.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Authorazion\\Queries\\Handler\\RoleQueryHandler.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Feature\\Authorazion\\Queries\\Handler\\RoleQueryHandler.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Authorazion\\Queries\\Handler\\RoleQueryHandler.cs",
+              "RelativeToolTip": "SchoolProject.Core\\Feature\\Authorazion\\Queries\\Handler\\RoleQueryHandler.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T14:11:12.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAuthorizationServices.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Services\\Abstract\\IAuthorizationServices.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Services\\Abstract\\IAuthorizationServices.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Services\\Abstract\\IAuthorizationServices.cs",
+              "RelativeToolTip": "SchoolProject.Services\\Abstract\\IAuthorizationServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T14:45:59.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthenticationServices.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Services\\Implementatios\\AuthenticationServices.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Services\\Implementatios\\AuthenticationServices.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Services\\Implementatios\\AuthenticationServices.cs",
+              "RelativeToolTip": "SchoolProject.Services\\Implementatios\\AuthenticationServices.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T14:45:53.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserSeeder.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\DataSeeder\\UserSeeder.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Infrastruture\\DataSeeder\\UserSeeder.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\DataSeeder\\UserSeeder.cs",
+              "RelativeToolTip": "SchoolProject.Infrastruture\\DataSeeder\\UserSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T14:32:30.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetRoleMapping.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Mapping\\Roles\\Queries\\GetRoleMapping.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Mapping\\Roles\\Queries\\GetRoleMapping.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Mapping\\Roles\\Queries\\GetRoleMapping.cs",
+              "RelativeToolTip": "SchoolProject.Core\\Mapping\\Roles\\Queries\\GetRoleMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T14:22:13.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuzorizationServices.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Services\\Implementatios\\AuzorizationServices.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Services\\Implementatios\\AuzorizationServices.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Services\\Implementatios\\AuzorizationServices.cs",
+              "RelativeToolTip": "SchoolProject.Services\\Implementatios\\AuzorizationServices.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwFEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T17:49:07.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetRolesListDto.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Results\\GetRolesListDto.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Results\\GetRolesListDto.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Results\\GetRolesListDto.cs",
+              "RelativeToolTip": "SchoolProject.Core\\Results\\GetRolesListDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T14:02:37.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAuthenticationServices.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Services\\Abstract\\IAuthenticationServices.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Services\\Abstract\\IAuthenticationServices.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Services\\Abstract\\IAuthenticationServices.cs",
+              "RelativeToolTip": "SchoolProject.Services\\Abstract\\IAuthenticationServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T19:00:33.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EditRoleValidator.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Authorazion\\Command\\Validation\\EditRoleValidator.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Feature\\Authorazion\\Command\\Validation\\EditRoleValidator.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Authorazion\\Command\\Validation\\EditRoleValidator.cs",
+              "RelativeToolTip": "SchoolProject.Core\\Feature\\Authorazion\\Command\\Validation\\EditRoleValidator.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T18:53:33.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DeleteRoleCommand.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Authorazion\\Command\\Models\\DeleteRoleCommand.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Feature\\Authorazion\\Command\\Models\\DeleteRoleCommand.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Authorazion\\Command\\Models\\DeleteRoleCommand.cs",
+              "RelativeToolTip": "SchoolProject.Core\\Feature\\Authorazion\\Command\\Models\\DeleteRoleCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T18:06:47.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ServicesRegestration.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\ServicesRegestration.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Infrastruture\\ServicesRegestration.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\ServicesRegestration.cs",
+              "RelativeToolTip": "SchoolProject.Infrastruture\\ServicesRegestration.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T18:57:01.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Api\\Program.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Api\\Program.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Api\\Program.cs",
+              "RelativeToolTip": "SchoolProject.Api\\Program.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAQwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T18:56:45.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ModuleServicesBuilder.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Services\\ModuleServicesBuilder.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Services\\ModuleServicesBuilder.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Services\\ModuleServicesBuilder.cs",
+              "RelativeToolTip": "SchoolProject.Services\\ModuleServicesBuilder.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T18:56:08.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ModuleInfrastrucureDependiences.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\ModuleInfrastrucureDependiences.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Infrastruture\\ModuleInfrastrucureDependiences.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\ModuleInfrastrucureDependiences.cs",
+              "RelativeToolTip": "SchoolProject.Infrastruture\\ModuleInfrastrucureDependiences.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T18:55:58.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Infrastruture\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SchoolProject.Infrastruture\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T18:55:43.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EditUsersCommand.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Users\\Commands\\Models\\EditUsersCommand.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Feature\\Users\\Commands\\Models\\EditUsersCommand.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Users\\Commands\\Models\\EditUsersCommand.cs",
+              "RelativeToolTip": "SchoolProject.Core\\Feature\\Users\\Commands\\Models\\EditUsersCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T18:52:28.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DeleteUserCommand.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Users\\Commands\\Models\\DeleteUserCommand.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Feature\\Users\\Commands\\Models\\DeleteUserCommand.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Users\\Commands\\Models\\DeleteUserCommand.cs",
+              "RelativeToolTip": "SchoolProject.Core\\Feature\\Users\\Commands\\Models\\DeleteUserCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T18:47:00.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Api\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Api\\Controllers\\DepartmentController.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Api\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "SchoolProject.Api\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T18:46:45.046Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

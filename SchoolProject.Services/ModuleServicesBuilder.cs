@@ -15,6 +15,10 @@ namespace SchoolProject.Services
 
             services.AddTransient<IStudentServies, StduentServices>();
             services.AddTransient<IDepartmentServies, DepartmentServices>();
+            services.AddTransient<IAuthenticationServices, AuthenticationServices>();
+            services.AddTransient<IAuthorizationServices, AuzorizationServices>();
+
+
 
             services.AddTransient(typeof(IGenericRepositoryAsync<>), typeof(GenericRepositoryAsync<>));
 
