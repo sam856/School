@@ -9,7 +9,7 @@ namespace SchoolProject.Api.Controllers
 {
 
     [ApiController]
-    [Authorize]
+    [Authorize(Roles = "Admin")]
 
     public class StudentController : AppControllerBase
     {
@@ -17,7 +17,7 @@ namespace SchoolProject.Api.Controllers
 
 
         [HttpGet(Router.StudentApi.List)]
-
+        [Authorize(Roles = "User")]
         public async Task<IActionResult> GetStudentsList()
         {
             var response = await Mediator.Send(new GetStudentListQuery());
@@ -44,7 +44,7 @@ namespace SchoolProject.Api.Controllers
         }
 
 
-
+        [Authorize(Policy = "CreateStudent")]
         [HttpPost(Router.StudentApi.Create)]
 
         public async Task<IActionResult> AddStudent([FromBody] AddStudentCommand studentCommand)

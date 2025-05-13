@@ -108,3 +108,13 @@ E:\C#\SchoolProject\SchoolProject.Api\obj\Debug\net7.0\refint\SchoolProject.Api.
 E:\C#\SchoolProject\SchoolProject.Api\obj\Debug\net7.0\SchoolProject.Api.pdb
 E:\C#\SchoolProject\SchoolProject.Api\obj\Debug\net7.0\SchoolProject.Api.genruntimeconfig.cache
 E:\C#\SchoolProject\SchoolProject.Api\obj\Debug\net7.0\ref\SchoolProject.Api.dll
+E:\C#\SchoolProject\SchoolProject.Api\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+E:\C#\SchoolProject\SchoolProject.Api\bin\Debug\net7.0\MailKit.dll
+E:\C#\SchoolProject\SchoolProject.Api\bin\Debug\net7.0\MimeKit.dll
+E:\C#\SchoolProject\SchoolProject.Api\bin\Debug\net7.0\System.Formats.Asn1.dll
+E:\C#\SchoolProject\SchoolProject.Api\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+E:\C#\SchoolProject\SchoolProject.Api\bin\Debug\net7.0\System.Text.Encoding.CodePages.dll
+E:\C#\SchoolProject\SchoolProject.Api\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+E:\C#\SchoolProject\SchoolProject.Api\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Text.Encoding.CodePages.dll
+E:\C#\SchoolProject\SchoolProject.Api\bin\Debug\net7.0\EntityFrameworkCore.EncryptColumn.dll
+E:\C#\SchoolProject\SchoolProject.Api\bin\Debug\net7.0\StoredProcedureEFCore.dll

@@ -102,6 +102,48 @@
   },
   {
     "ContainingType": "SchoolProject.Api.Controllers.AuthenticationController",
+    "Method": "ConfirmEmail",
+    "RelativePath": "api/Authentication/Api/V1/Authentication/ConfirmEmail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.AuthenticationController",
+    "Method": "ConfirmResetPassword",
+    "RelativePath": "api/Authentication/Api/V1/Authentication/ConfirmResetPasswordCode",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.AuthenticationController",
     "Method": "RefreshToken",
     "RelativePath": "api/Authentication/Api/V1/Authentication/RefreshToken",
     "HttpMethod": "POST",
@@ -115,6 +157,22 @@
       },
       {
         "Name": "RefreshToken",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.AuthenticationController",
+    "Method": "SendResetPassword",
+    "RelativePath": "api/Authentication/Api/V1/Authentication/SendResetPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Email",
         "Type": "System.String",
         "IsRequired": false
       }
@@ -218,6 +276,38 @@
   },
   {
     "ContainingType": "SchoolProject.Api.Controllers.AuthroziationController",
+    "Method": "ManageUserCliams",
+    "RelativePath": "api/Authroziation/Api/V1/Autorization/ManageUserCliams/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.AuthroziationController",
+    "Method": "ManageUserRoles",
+    "RelativePath": "api/Authroziation/Api/V1/Autorization/ManageUserRoles/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.AuthroziationController",
     "Method": "Update",
     "RelativePath": "api/Authroziation/Api/V1/Autorization/Update",
     "HttpMethod": "PUT",
@@ -233,6 +323,64 @@
         "Name": "Name",
         "Type": "System.String",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.AuthroziationController",
+    "Method": "UpdateUserCliams",
+    "RelativePath": "api/Authroziation/Api/V1/Autorization/UpdateUserCliams",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SchoolProject.Core.Feature.Authorazion.Command.Models.UpdateUserRoleManager",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.AuthroziationController",
+    "Method": "UpdateUserRoles",
+    "RelativePath": "api/Authroziation/Api/V1/Autorization/UpdateUserRoles",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SchoolProject.Core.Feature.Authorazion.Command.Models.UpdateUserRoleManager",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.DepartmentController",
+    "Method": "GetDepartmentByStudentCount",
+    "RelativePath": "api/Department/Api/V1/Department/GetDepartmentByStudentCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.DepartmentController",
+    "Method": "GetDepartmentByStudentCountproc",
+    "RelativePath": "api/Department/Api/V1/Department/GetDepartmentByStudentCountproc/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -258,6 +406,27 @@
       {
         "Name": "StudentPageNumber",
         "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.Api.Controllers.EmailController",
+    "Method": "Create",
+    "RelativePath": "api/Email/Api/V1/Email/Send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Message",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],

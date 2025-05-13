@@ -71,6 +71,18 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.20, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[8.2.0, )"
             }
           },
           "imports": [
@@ -247,6 +259,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "EntityFrameworkCore.EncryptColumn": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.20, )"
@@ -364,6 +380,10 @@
               "target": "Package",
               "version": "[7.0.20, )"
             },
+            "StoredProcedureEFCore": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[7.1.0, )"
@@ -449,6 +469,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
