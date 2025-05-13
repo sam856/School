@@ -10,6 +10,7 @@ using SchoolProject.Infrastruture;
 using SchoolProject.Infrastruture.Context;
 using SchoolProject.Infrastruture.DataSeeder;
 using SchoolProject.Services;
+using Serilog;
 using System.Globalization;
 
 public class Program
@@ -29,8 +30,9 @@ public class Program
 
 
         );
+        Log.Logger = new LoggerConfiguration().ReadFrom.Configuration(builder.Configuration).CreateLogger();
 
-
+        builder.Services.AddSerilog();
 
         #region Dependency Injection
         builder.Services.AddInfrastrucureDependiences()
