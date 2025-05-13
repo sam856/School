@@ -126,6 +126,9 @@
   <data name="ChangePassFailed" xml:space="preserve">
     <value>حذث حطا اثناء عمليه تغيير كلمه المرور</value>
   </data>
+  <data name="ConfirmEmailDone" xml:space="preserve">
+    <value>تم تاكيد البريد الالكتروني بنجاح</value>
+  </data>
   <data name="Created" xml:space="preserve">
     <value>تم الاضافه بنجاح</value>
   </data>
@@ -141,11 +144,47 @@
   <data name="EmailIsExist" xml:space="preserve">
     <value>هذا الايميل مستخدم</value>
   </data>
+  <data name="EmailNotConfirmed" xml:space="preserve">
+    <value>لم يتم تاكيد البريد الالكتروني</value>
+  </data>
+  <data name="ErrorInUpdateUser" xml:space="preserve">
+    <value>حدث خطا اثناؤ عمليه التحديث البيانات</value>
+  </data>
+  <data name="ErrorWhenConfirmEmail" xml:space="preserve">
+    <value>خطا اثناء عمليه تاكيد البريد</value>
+  </data>
   <data name="FaildToAddUser" xml:space="preserve">
     <value>فشل في انشاء المستخدم</value>
   </data>
+  <data name="FailedToAddNewClaims" xml:space="preserve">
+    <value>فشل في اضافه امتيازات جديده</value>
+  </data>
+  <data name="FailedToAddNewRoles" xml:space="preserve">
+    <value>فشل في عمليه اضافه صلاحيات جديده</value>
+  </data>
+  <data name="FailedToRemoveOldClaims" xml:space="preserve">
+    <value>فشل في عمليه حذف الامتيازات القديمه</value>
+  </data>
+  <data name="FailedToRemoveOldRoles" xml:space="preserve">
+    <value>فشل في عمليه حذف لاصلاحيات الموجوده</value>
+  </data>
+  <data name="FailedToUpdateClaims" xml:space="preserve">
+    <value>فشل في عمليه تحديث الامتيازات</value>
+  </data>
+  <data name="FailedToUpdateUserRoles" xml:space="preserve">
+    <value>فشل عمليه تحديث الصلاحيات</value>
+  </data>
+  <data name="FailedToUploadImage" xml:space="preserve">
+    <value>فشل في عمليه تحميل الصوره</value>
+  </data>
+  <data name="InvaildCode" xml:space="preserve">
+    <value>الكود غير صحيح</value>
+  </data>
   <data name="IsNotExist" xml:space="preserve">
     <value>هذا العنصر غير موجود</value>
+  </data>
+  <data name="NoImage" xml:space="preserve">
+    <value>يجب رفع الصوره</value>
   </data>
   <data name="NotEmpty" xml:space="preserve">
     <value>لا يمكن ترك العنصر فارغا</value>
@@ -174,8 +213,17 @@
   <data name="RoleIsUsed" xml:space="preserve">
     <value>يتم استخدامه</value>
   </data>
+  <data name="SendEmailFailed" xml:space="preserve">
+    <value>فشل عمليه الارسال</value>
+  </data>
   <data name="Success" xml:space="preserve">
     <value>تمت العمليه بنجاح</value>
+  </data>
+  <data name="TryAgainInAnotherTime" xml:space="preserve">
+    <value>حاول في وقت اخر</value>
+  </data>
+  <data name="TryToRegisterAgain" xml:space="preserve">
+    <value>فشل في عمليه الاضافه حاول مره اخري</value>
   </data>
   <data name="Updated" xml:space="preserve">
     <value>تم التعديل بنجاح</value>

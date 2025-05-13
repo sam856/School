@@ -1,6 +1,7 @@
 ﻿using SchoolProject.Data.Entites.Identity;
 using SchoolProject.Data.Helper;
 using SchoolProject.Service;
+using SchoolProject.Services.Dtos;
 
 namespace SchoolProject.Services.Abstract
 {
@@ -17,6 +18,14 @@ namespace SchoolProject.Services.Abstract
         public Task<Role> GetRoleById(int Id);
 
         public Task<ManageUserRoleDto> GetManageUserRoleData(User user);
+
+        public Task<ManageUserCliamsDto> ManageUserCliamsData(User user);
+
+
+        public Task<string> UpdateUserRoleData(UpdateUserRole user);
+        public Task<string> UpdateUserCliams(UpdateUserClaimsDto updateUserClaimsDto);
+
+
 
 
 

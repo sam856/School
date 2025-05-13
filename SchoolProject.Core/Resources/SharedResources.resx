@@ -126,6 +126,9 @@
   <data name="ChangePassFailed" xml:space="preserve">
     <value />
   </data>
+  <data name="ConfirmEmailDone" xml:space="preserve">
+    <value />
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Created" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -142,10 +145,46 @@
   <data name="EmailIsExist" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
+  <data name="EmailNotConfirmed" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ErrorInUpdateUser" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ErrorWhenConfirmEmail" xml:space="preserve">
+    <value />
+  </data>
   <data name="FaildToAddUser" xml:space="preserve">
     <value />
   </data>
+  <data name="FailedToAddNewClaims" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FailedToAddNewRoles" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FailedToRemoveOldClaims" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FailedToRemoveOldRoles" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FailedToUpdateClaims" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FailedToUpdateUserRoles" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FailedToUploadImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InvaildCode" xml:space="preserve">
+    <value />
+  </data>
   <data name="IsNotExist" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NoImage" xml:space="preserve">
     <value />
   </data>
   <data name="NotEmpty" xml:space="preserve">
@@ -175,7 +214,16 @@
   <data name="RoleIsUsed" xml:space="preserve">
     <value />
   </data>
+  <data name="SendEmailFailed" xml:space="preserve">
+    <value />
+  </data>
   <data name="Success" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TryAgainInAnotherTime" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TryToRegisterAgain" xml:space="preserve">
     <value />
   </data>
   <data name="Updated" xml:space="preserve">

@@ -31,6 +31,9 @@
 
             public const string Prefix = Rule + "Department";
             public const string GetById = Prefix + "/Id";
+            public const string GetDepartmentByStudentCount = Prefix + "/GetDepartmentByStudentCount";
+            public const string GetDepartmentByStudentCountproc = Prefix + "/GetDepartmentByStudentCountproc/{id}";
+
 
 
 
@@ -57,15 +60,22 @@
 
         }
 
+
         public static class Authentication
         {
             public const string Prefix = Rule + "Authentication";
             public const string SignIn = Prefix + "/SignIn";
             public const string RefreshToken = Prefix + "/RefreshToken";
             public const string ValidateToken = Prefix + "/ValidateToken";
+            public const string ConfirmEmail = Prefix + "/ConfirmEmail";
+            public const string SendResetPassword = Prefix + "/SendResetPassword";
+            public const string ResetPassword = Prefix + "/ResetPassword";
+            public const string ConfirmResetPasswordCode = Prefix + "/ConfirmResetPasswordCode";
+
 
 
         }
+
 
         public static class Authorize
         {
@@ -75,13 +85,46 @@
             public const string Delete = Prefix + "/Delete" + SymbolId;
             public const string AllRoles = Prefix + "/AllRoles";
             public const string GetById = Prefix + "/GetById" + SymbolId;
-            public const string ManageUserRoles = Prefix + "/ManageUserRoles";
+            public const string ManageUserRoles = Prefix + "/ManageUserRoles" + SymbolId;
+            public const string UpdateUserRoles = Prefix + "/UpdateUserRoles";
+            public const string ManageUserCliams = Prefix + "/ManageUserCliams" + SymbolId;
+            public const string UpdateUserCliams = Prefix + "/UpdateUserCliams";
 
 
 
 
 
         }
+        public static class Email
+        {
+            public const string Prefix = Rule + "Email";
+            public const string Send = Prefix + "/Send";
+
+
+
+
+
+
+
+
+
+        }
+
+
+        public static class Instractor
+        {
+            public const string Prefix = Rule + "Instractor";
+            public const string GetSummary = Prefix + "/GetSummary";
+            public const string AddInstractor = Prefix + "/AddInstractor";
+
+
+
+
+
+
+        }
+
+
 
 
 

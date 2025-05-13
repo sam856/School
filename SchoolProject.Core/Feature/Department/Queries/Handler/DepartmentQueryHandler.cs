@@ -7,13 +7,18 @@ using SchoolProject.Core.Resources;
 using SchoolProject.Core.Results;
 using SchoolProject.Core.Wapper;
 using SchoolProject.Data.Entites;
+using SchoolProject.Data.Entites.StoredProcudure;
 using SchoolProject.Services.Abstract;
 using System.Linq.Expressions;
 
 namespace SchoolProject.Core.Feature.Department.Queries.Handler
 {
     public class DepartmentQueryHandler : ResponseHandler,
-        IRequestHandler<GetDepartmentById, Response<GetDepartmentDto>>
+        IRequestHandler<GetDepartmentById, Response<GetDepartmentDto>>,
+                IRequestHandler<GetDepartmentbyStudentCount, Response<List<GetDepartmentbyStudentCountDto>>>,
+                        IRequestHandler<GetDepartmentStudentCountProcsQuery, Response<GetDepartmentStudentCountProcsDto>>
+
+
 
     {
 
@@ -61,7 +66,23 @@ namespace SchoolProject.Core.Feature.Department.Queries.Handler
 
         }
 
+        public async Task<Response<List<GetDepartmentbyStudentCountDto>>> Handle(GetDepartmentbyStudentCount request, CancellationToken cancellationToken)
+        {
+            var Veiws = await departmentServies.GetVeiwDepartmentStudentCount();
+            var Dto = _mapper.Map<List<GetDepartmentbyStudentCountDto>>(Veiws);
+            return Success(Dto);
+        }
+
+        public async Task<Response<GetDepartmentStudentCountProcsDto>> Handle(GetDepartmentStudentCountProcsQuery request, CancellationToken cancellationToken)
+        {
+            var parameter = _mapper.Map<DepartmentStudentCountProcParams>(request);
+            var proc = await departmentServies.GetDepartmentStudentCountProcsAsync(parameter);
+            var result = _mapper.Map<GetDepartmentStudentCountProcsDto>(proc.FirstOrDefault());
+            return Success(result);
+        }
+
         #endregion
     }
 
 }
+

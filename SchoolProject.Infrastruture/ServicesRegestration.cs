@@ -45,9 +45,15 @@ namespace SchoolProject.Infrastruture
 
             //JWT Authentication
             var jwtSettings = new JwtSettings();
+            var emailSettings = new EmailSetting();
+
             configuration.GetSection("JwtSettings").Bind(jwtSettings);
+            configuration.GetSection(nameof(emailSettings)).Bind(emailSettings);
+
 
             services.AddSingleton(jwtSettings);
+            services.AddSingleton(emailSettings);
+
             services.AddAuthentication(x =>
             {
                 x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -99,6 +105,11 @@ namespace SchoolProject.Infrastruture
             }
            });
             });
+            services.AddAuthorization(option => option.AddPolicy("CreateStudent", policy =>
+            {
+
+                policy.RequireClaim("Create Student", "True");
+            }));
 
             return services;
         }

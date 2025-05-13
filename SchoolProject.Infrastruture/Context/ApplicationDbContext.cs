@@ -1,21 +1,25 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using EntityFrameworkCore.EncryptColumn.Extension;
+using EntityFrameworkCore.EncryptColumn.Interfaces;
+using EntityFrameworkCore.EncryptColumn.Util;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-
 using SchoolProject.Data.Entites;
 using SchoolProject.Data.Entites.Identity;
+using SchoolProject.Data.Entites.Veiws;
 
 namespace SchoolProject.Infrastruture.Context
 {
     public class ApplicationDbContext : IdentityDbContext<User, Role, int, IdentityUserClaim<int>, IdentityUserRole<int>, IdentityUserLogin<int>, IdentityRoleClaim<int>, IdentityUserToken<int>>
     {
+        private IEncryptionProvider encryptionProvider;
         public ApplicationDbContext()
         {
 
         }
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-
+            encryptionProvider = new GenerateEncryptionProvider("33085ecdbf384d928ef6a8ba0a7b3c69");
         }
         public DbSet<Student> Students { get; set; }
         public DbSet<Department> Departments { get; set; }
@@ -25,6 +29,7 @@ namespace SchoolProject.Infrastruture.Context
         public DbSet<Instructor> instructors { get; set; }
         public DbSet<Ins_Subject> Ins_Subject { get; set; }
         public DbSet<UserRefreshToken> userRefreshTokens { get; set; }
+        public DbSet<VeiwDepartment> VeiwDepartment { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -43,11 +48,10 @@ namespace SchoolProject.Infrastruture.Context
               .HasForeignKey<Department>(x => x.Manager)
               .OnDelete(DeleteBehavior.Restrict);
 
-
+            modelBuilder.UseEncryption(encryptionProvider);
 
             base.OnModelCreating(modelBuilder);
         }
-
 
     }
 }

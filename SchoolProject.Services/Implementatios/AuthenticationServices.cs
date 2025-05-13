@@ -4,6 +4,7 @@ using Microsoft.IdentityModel.Tokens;
 using SchoolProject.Data.Entites.Identity;
 using SchoolProject.Data.Helper;
 using SchoolProject.Infrastruture.Abstract;
+using SchoolProject.Infrastruture.Context;
 using SchoolProject.Services.Abstract;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -19,17 +20,21 @@ namespace SchoolProject.Services.Implementatios
         private readonly JwtSettings _jwtSettings;
         private IRefreshTokenRepositiry RefreshTokenRepositiry;
         private UserManager<User> _userManager;
+        private ApplicationDbContext dbContext;
+        private IEmailServices emailServices;
 
         #endregion
 
         #region Cobnstractor
         public AuthenticationServices(JwtSettings _jwtSettings,
             IRefreshTokenRepositiry RefreshTokenRepositiry,
-            UserManager<User> _userManager)
+            UserManager<User> _userManager, ApplicationDbContext dbContext, IEmailServices emailServices)
         {
             this._jwtSettings = _jwtSettings;
             this.RefreshTokenRepositiry = RefreshTokenRepositiry;
             this._userManager = _userManager;
+            this.dbContext = dbContext;
+            this.emailServices = emailServices;
         }
         #endregion
 
@@ -65,8 +70,7 @@ namespace SchoolProject.Services.Implementatios
         private async Task<(JwtSecurityToken, string)> GetJwtToken(User user)
         {
 
-            var roles = await _userManager.GetRolesAsync(user);
-            var claims = GetClaims(user, roles.ToList());
+            var claims = await GetClaims(user);
             var jwtToken = new JwtSecurityToken(
                 _jwtSettings.Issuer,
                 _jwtSettings.Audience,
@@ -89,8 +93,10 @@ namespace SchoolProject.Services.Implementatios
             };
             return refreshToken;
         }
-        public List<Claim> GetClaims(User user, List<string> roles)
+        public async Task<List<Claim>> GetClaims(User user)
         {
+            var roles = await _userManager.GetRolesAsync(user);
+
             var claims = new List<Claim>()
             {
 
@@ -106,6 +112,8 @@ namespace SchoolProject.Services.Implementatios
             {
                 claims.Add(new Claim(ClaimTypes.Role, role));
             }
+            var UserCliams = await _userManager.GetClaimsAsync(user);
+            claims.AddRange(UserCliams);
             return claims;
         }
 
@@ -201,6 +209,90 @@ namespace SchoolProject.Services.Implementatios
             var expiredate = userrefreshToken.ExpiredTime;
 
             return (userId, expiredate);
+        }
+
+        public async Task<string> CofirmEmail(string? code, int? UserId)
+        {
+            if (code == null || UserId == null)
+                return "ErrorWhenConfirmEmail";
+
+            var user = await _userManager.FindByIdAsync(UserId.ToString());
+            var ConfirmEmail = await _userManager.ConfirmEmailAsync(user, code);
+            if (!ConfirmEmail.Succeeded)
+                return "ErrorWhenConfirmEmail";
+            return "Success";
+        }
+
+
+        public async Task<string> ResetPassword(string Email)
+        {
+            var trans = await dbContext.Database.BeginTransactionAsync();
+            try
+            {
+                var user = await _userManager.FindByEmailAsync(Email);
+                if (user == null)
+                    return "UserNotFound";
+                Random genrator = new Random();
+                var code = genrator.Next(0, 1000).ToString("D6");
+                user.Code = code;
+                var updated = await _userManager.UpdateAsync(user);
+                if (!updated.Succeeded)
+                    return "ErrorInUpdateUser";
+
+                var message = "Code To Reset Password : " + code;
+
+
+                await emailServices.SendEmailAsync(Email, message, "Reset Password");
+                await trans.CommitAsync();
+                return "Success";
+            }
+            catch (Exception ex)
+            {
+                await trans.RollbackAsync();
+                return "Failed";
+            }
+        }
+
+
+        public async Task<string> SendResetPassword(string Email, string Password)
+        {
+            var trans = await dbContext.Database.BeginTransactionAsync();
+            try
+            {
+                //Get User
+                var user = await _userManager.FindByEmailAsync(Email);
+                //user not Exist => not found
+                if (user == null)
+                    return "UserNotFound";
+                await _userManager.RemovePasswordAsync(user);
+                if (!await _userManager.HasPasswordAsync(user))
+                {
+                    await _userManager.AddPasswordAsync(user, Password);
+                }
+                await trans.CommitAsync();
+                return "Success";
+            }
+            catch (Exception ex)
+            {
+                await trans.RollbackAsync();
+                return "Failed";
+            }
+        }
+
+
+        public async Task<string> ConfirmResetPassword(string Code, string Email)
+        {
+            //Get User
+            //user
+            var user = await _userManager.FindByEmailAsync(Email);
+            //user not Exist => not found
+            if (user == null)
+                return "UserNotFound";
+            //Decrept Code From Database User Code
+            var userCode = user.Code;
+            //Equal With Code
+            if (userCode == Code) return "Success";
+            return "Failed";
         }
 
         #endregion

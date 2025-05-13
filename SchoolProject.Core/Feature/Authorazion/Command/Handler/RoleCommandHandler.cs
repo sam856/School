@@ -11,7 +11,8 @@ namespace SchoolProject.Core.Feature.Authorazion.Command.Handler
         ResponseHandler,
         IRequestHandler<AddRoleCommand, Response<string>>,
         IRequestHandler<EditRoleCommand, Response<string>>,
-         IRequestHandler<DeleteRoleCommand, Response<string>>
+         IRequestHandler<DeleteRoleCommand, Response<string>>,
+        IRequestHandler<UpdateUserRoleManager, Response<string>>
 
 
 
@@ -71,6 +72,20 @@ namespace SchoolProject.Core.Feature.Authorazion.Command.Handler
             else
                 return BadRequest<string>(result);
         }
+
+        public async Task<Response<string>> Handle(UpdateUserRoleManager request, CancellationToken cancellationToken)
+        {
+            var result = await authorizationServices.UpdateUserRoleData(request);
+            switch (result)
+            {
+                case "UserIsNull": return NotFound<string>(localizer[SharedResourcesKeys.UserIsNotFound]);
+                case "FailedToRemoveOldRoles": return BadRequest<string>(localizer[SharedResourcesKeys.FailedToRemoveOldRoles]);
+                case "FailedToAddNewRoles": return BadRequest<string>(localizer[SharedResourcesKeys.FailedToAddNewRoles]);
+                case "FailedToUpdateUserRoles": return BadRequest<string>(localizer[SharedResourcesKeys.FailedToUpdateUserRoles]);
+            }
+            return Success<string>(localizer[SharedResourcesKeys.Success]);
+        }
+
         #endregion
     }
 }

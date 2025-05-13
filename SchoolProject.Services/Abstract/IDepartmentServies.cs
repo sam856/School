@@ -1,4 +1,6 @@
 ﻿using SchoolProject.Data.Entites;
+using SchoolProject.Data.Entites.StoredProcudure;
+using SchoolProject.Data.Entites.Veiws;
 
 namespace SchoolProject.Services.Abstract
 {
@@ -8,5 +10,7 @@ namespace SchoolProject.Services.Abstract
 
         public Task<bool> DepartmentIsExist(int id);
 
+        public Task<List<VeiwDepartment>> GetVeiwDepartmentStudentCount();
+        public Task<IReadOnlyList<DepartmentStudentCountProc>> GetDepartmentStudentCountProcsAsync(DepartmentStudentCountProcParams prams);
     }
 }

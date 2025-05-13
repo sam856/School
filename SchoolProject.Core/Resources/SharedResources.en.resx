@@ -126,6 +126,9 @@
   <data name="ChangePassFailed" xml:space="preserve">
     <value>Failed To Change Password</value>
   </data>
+  <data name="ConfirmEmailDone" xml:space="preserve">
+    <value>Confirm Email is Failed</value>
+  </data>
   <data name="Created" xml:space="preserve">
     <value>Created Sucessfully</value>
   </data>
@@ -141,11 +144,47 @@
   <data name="EmailIsExist" xml:space="preserve">
     <value>This Email is Exsit</value>
   </data>
+  <data name="EmailNotConfirmed" xml:space="preserve">
+    <value>This Email is Not Confirmed</value>
+  </data>
+  <data name="ErrorInUpdateUser" xml:space="preserve">
+    <value>Error in Update User Data</value>
+  </data>
+  <data name="ErrorWhenConfirmEmail" xml:space="preserve">
+    <value>Email is Not Confirmed</value>
+  </data>
   <data name="FaildToAddUser" xml:space="preserve">
     <value>Faild To Create User</value>
   </data>
+  <data name="FailedToAddNewClaims" xml:space="preserve">
+    <value>Failed To add New Cliams</value>
+  </data>
+  <data name="FailedToAddNewRoles" xml:space="preserve">
+    <value>Failed To Add New Roles</value>
+  </data>
+  <data name="FailedToRemoveOldClaims" xml:space="preserve">
+    <value>Failed to remove old Cliams</value>
+  </data>
+  <data name="FailedToRemoveOldRoles" xml:space="preserve">
+    <value>Failed To Remove Old Roles</value>
+  </data>
+  <data name="FailedToUpdateClaims" xml:space="preserve">
+    <value>Failed To Update Cliams</value>
+  </data>
+  <data name="FailedToUpdateUserRoles" xml:space="preserve">
+    <value>Failed To Update User Roles</value>
+  </data>
+  <data name="FailedToUploadImage" xml:space="preserve">
+    <value>Failed To Upload Image</value>
+  </data>
+  <data name="InvaildCode" xml:space="preserve">
+    <value>Code Is Not Valid</value>
+  </data>
   <data name="IsNotExist" xml:space="preserve">
     <value>this Object isnot Exixt</value>
+  </data>
+  <data name="NoImage" xml:space="preserve">
+    <value>image is Required</value>
   </data>
   <data name="NotEmpty" xml:space="preserve">
     <value>Cannot be Empty</value>
@@ -174,8 +213,17 @@
   <data name="RoleIsUsed" xml:space="preserve">
     <value>Role is Used</value>
   </data>
+  <data name="SendEmailFailed" xml:space="preserve">
+    <value>send Email is Failed</value>
+  </data>
   <data name="Success" xml:space="preserve">
     <value>the Process is Success</value>
+  </data>
+  <data name="TryAgainInAnotherTime" xml:space="preserve">
+    <value>Try in Another Time</value>
+  </data>
+  <data name="TryToRegisterAgain" xml:space="preserve">
+    <value>Try to Register again</value>
   </data>
   <data name="Updated" xml:space="preserve">
     <value>Updated Successfully</value>
