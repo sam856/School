@@ -3,188 +3,48 @@
   "WorkspaceRootPath": "E:\\C#\\SchoolProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFD9A3DA-016C-4260-BD50-E05B6399993E}|SchoolProject.Api\\SchoolProject.Api.csproj|e:\\c#\\schoolproject\\schoolproject.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EFD9A3DA-016C-4260-BD50-E05B6399993E}|SchoolProject.Api\\SchoolProject.Api.csproj|solutionrelative:schoolproject.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{FF39AD68-58A2-4CD9-83FE-71FF3E596062}|Test.School\\Test.School.csproj|e:\\c#\\schoolproject\\test.school\\coretest\\commands\\studentcommandtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF39AD68-58A2-4CD9-83FE-71FF3E596062}|Test.School\\Test.School.csproj|solutionrelative:test.school\\coretest\\commands\\studentcommandtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFD9A3DA-016C-4260-BD50-E05B6399993E}|SchoolProject.Api\\SchoolProject.Api.csproj|e:\\c#\\schoolproject\\schoolproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFD9A3DA-016C-4260-BD50-E05B6399993E}|SchoolProject.Api\\SchoolProject.Api.csproj|solutionrelative:schoolproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\feature\\stduent\\commands\\handler\\studentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\feature\\stduent\\commands\\handler\\studentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFD9A3DA-016C-4260-BD50-E05B6399993E}|SchoolProject.Api\\SchoolProject.Api.csproj|e:\\c#\\schoolproject\\schoolproject.api\\schoolproject.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{EFD9A3DA-016C-4260-BD50-E05B6399993E}|SchoolProject.Api\\SchoolProject.Api.csproj|solutionrelative:schoolproject.api\\schoolproject.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{FF39AD68-58A2-4CD9-83FE-71FF3E596062}|Test.School\\Test.School.csproj|e:\\c#\\schoolproject\\test.school\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF39AD68-58A2-4CD9-83FE-71FF3E596062}|Test.School\\Test.School.csproj|solutionrelative:test.school\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|e:\\c#\\schoolproject\\schoolproject.services\\implementatios\\instractorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|solutionrelative:schoolproject.services\\implementatios\\instractorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF39AD68-58A2-4CD9-83FE-71FF3E596062}|Test.School\\Test.School.csproj|e:\\c#\\schoolproject\\test.school\\extentionmethodtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF39AD68-58A2-4CD9-83FE-71FF3E596062}|Test.School\\Test.School.csproj|solutionrelative:test.school\\extentionmethodtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\feature\\instractor\\command\\handler\\instractorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\feature\\instractor\\command\\handler\\instractorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF39AD68-58A2-4CD9-83FE-71FF3E596062}|Test.School\\Test.School.csproj|e:\\c#\\schoolproject\\test.school\\coretest\\queries\\studentquerytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF39AD68-58A2-4CD9-83FE-71FF3E596062}|Test.School\\Test.School.csproj|solutionrelative:test.school\\coretest\\queries\\studentquerytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFD9A3DA-016C-4260-BD50-E05B6399993E}|SchoolProject.Api\\SchoolProject.Api.csproj|e:\\c#\\schoolproject\\schoolproject.api\\controllers\\instractorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFD9A3DA-016C-4260-BD50-E05B6399993E}|SchoolProject.Api\\SchoolProject.Api.csproj|solutionrelative:schoolproject.api\\controllers\\instractorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF39AD68-58A2-4CD9-83FE-71FF3E596062}|Test.School\\Test.School.csproj|e:\\c#\\schoolproject\\test.school\\models\\passdatausingmemerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF39AD68-58A2-4CD9-83FE-71FF3E596062}|Test.School\\Test.School.csproj|solutionrelative:test.school\\models\\passdatausingmemerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|e:\\c#\\schoolproject\\schoolproject.services\\implementatios\\fileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|solutionrelative:schoolproject.services\\implementatios\\fileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF39AD68-58A2-4CD9-83FE-71FF3E596062}|Test.School\\Test.School.csproj|e:\\c#\\schoolproject\\test.school\\models\\passdatausingclassdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF39AD68-58A2-4CD9-83FE-71FF3E596062}|Test.School\\Test.School.csproj|solutionrelative:test.school\\models\\passdatausingclassdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{706F6B3D-C7C7-4800-82EB-CCC659159595}|SchoolProject.Data\\SchoolProject.Data.csproj|e:\\c#\\schoolproject\\schoolproject.data\\appmetadata\\router.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{706F6B3D-C7C7-4800-82EB-CCC659159595}|SchoolProject.Data\\SchoolProject.Data.csproj|solutionrelative:schoolproject.data\\appmetadata\\router.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF39AD68-58A2-4CD9-83FE-71FF3E596062}|Test.School\\Test.School.csproj|e:\\c#\\schoolproject\\test.school\\cartestmoq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF39AD68-58A2-4CD9-83FE-71FF3E596062}|Test.School\\Test.School.csproj|solutionrelative:test.school\\cartestmoq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\mapping\\departments\\queriesmapping\\getdepartmentbyidmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\mapping\\departments\\queriesmapping\\getdepartmentbyidmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF39AD68-58A2-4CD9-83FE-71FF3E596062}|Test.School\\Test.School.csproj|e:\\c#\\schoolproject\\test.school\\wrapper\\paginatedservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF39AD68-58A2-4CD9-83FE-71FF3E596062}|Test.School\\Test.School.csproj|solutionrelative:test.school\\wrapper\\paginatedservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\mapping\\instracormapping\\querymapping\\addinstractormapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\mapping\\instracormapping\\querymapping\\addinstractormapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF39AD68-58A2-4CD9-83FE-71FF3E596062}|Test.School\\Test.School.csproj|e:\\c#\\schoolproject\\test.school\\wrapper\\ipaginatedservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF39AD68-58A2-4CD9-83FE-71FF3E596062}|Test.School\\Test.School.csproj|solutionrelative:test.school\\wrapper\\ipaginatedservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\mapping\\instracormapping\\instractormap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\mapping\\instracormapping\\instractormap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|e:\\c#\\schoolproject\\schoolproject.services\\abstract\\iinstractorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|solutionrelative:schoolproject.services\\abstract\\iinstractorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{706F6B3D-C7C7-4800-82EB-CCC659159595}|SchoolProject.Data\\SchoolProject.Data.csproj|e:\\c#\\schoolproject\\schoolproject.data\\entites\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{706F6B3D-C7C7-4800-82EB-CCC659159595}|SchoolProject.Data\\SchoolProject.Data.csproj|solutionrelative:schoolproject.data\\entites\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|e:\\c#\\schoolproject\\schoolproject.services\\moduleservicesbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|solutionrelative:schoolproject.services\\moduleservicesbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|e:\\c#\\schoolproject\\schoolproject.services\\abstract\\ifileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|solutionrelative:schoolproject.services\\abstract\\ifileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\feature\\department\\queries\\handler\\departmentqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\feature\\department\\queries\\handler\\departmentqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\feature\\instractor\\command\\validator\\addinstracorvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\feature\\instractor\\command\\validator\\addinstracorvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\feature\\instractor\\command\\models\\addinstractorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\feature\\instractor\\command\\models\\addinstractorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33157CB5-4DDE-45B0-AC06-3DE0DBCD6570}|SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj|e:\\c#\\schoolproject\\schoolproject.infrastruture\\repositiries - copy\\functions\\instractorfunctionrepositiry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33157CB5-4DDE-45B0-AC06-3DE0DBCD6570}|SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj|solutionrelative:schoolproject.infrastruture\\repositiries - copy\\functions\\instractorfunctionrepositiry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|e:\\c#\\schoolproject\\schoolproject.services\\abstract\\istudentservies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|solutionrelative:schoolproject.services\\abstract\\istudentservies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\feature\\authrntication\\command\\validation\\sendresetpasswordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\feature\\authrntication\\command\\validation\\sendresetpasswordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|e:\\c#\\schoolproject\\schoolproject.services\\abstract\\iauthenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|solutionrelative:schoolproject.services\\abstract\\iauthenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\feature\\authrntication\\command\\models\\resetpasswordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\feature\\authrntication\\command\\models\\resetpasswordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\feature\\authrntication\\command\\models\\sendresetpasswordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\feature\\authrntication\\command\\models\\sendresetpasswordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFD9A3DA-016C-4260-BD50-E05B6399993E}|SchoolProject.Api\\SchoolProject.Api.csproj|e:\\c#\\schoolproject\\schoolproject.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFD9A3DA-016C-4260-BD50-E05B6399993E}|SchoolProject.Api\\SchoolProject.Api.csproj|solutionrelative:schoolproject.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFD9A3DA-016C-4260-BD50-E05B6399993E}|SchoolProject.Api\\SchoolProject.Api.csproj|e:\\c#\\schoolproject\\schoolproject.api\\controllers\\authroziationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFD9A3DA-016C-4260-BD50-E05B6399993E}|SchoolProject.Api\\SchoolProject.Api.csproj|solutionrelative:schoolproject.api\\controllers\\authroziationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFD9A3DA-016C-4260-BD50-E05B6399993E}|SchoolProject.Api\\SchoolProject.Api.csproj|e:\\c#\\schoolproject\\schoolproject.api\\controllers\\applicationusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFD9A3DA-016C-4260-BD50-E05B6399993E}|SchoolProject.Api\\SchoolProject.Api.csproj|solutionrelative:schoolproject.api\\controllers\\applicationusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFD9A3DA-016C-4260-BD50-E05B6399993E}|SchoolProject.Api\\SchoolProject.Api.csproj|e:\\c#\\schoolproject\\schoolproject.api\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFD9A3DA-016C-4260-BD50-E05B6399993E}|SchoolProject.Api\\SchoolProject.Api.csproj|solutionrelative:schoolproject.api\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33157CB5-4DDE-45B0-AC06-3DE0DBCD6570}|SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj|e:\\c#\\schoolproject\\schoolproject.infrastruture\\abstract\\functions\\iinsttactorfunctionrepositiry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33157CB5-4DDE-45B0-AC06-3DE0DBCD6570}|SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj|solutionrelative:schoolproject.infrastruture\\abstract\\functions\\iinsttactorfunctionrepositiry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33157CB5-4DDE-45B0-AC06-3DE0DBCD6570}|SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj|e:\\c#\\schoolproject\\schoolproject.infrastruture\\repositiries - copy\\instractorrepositiry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33157CB5-4DDE-45B0-AC06-3DE0DBCD6570}|SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj|solutionrelative:schoolproject.infrastruture\\repositiries - copy\\instractorrepositiry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{706F6B3D-C7C7-4800-82EB-CCC659159595}|SchoolProject.Data\\SchoolProject.Data.csproj|e:\\c#\\schoolproject\\schoolproject.data\\dto\\getfunctionresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{706F6B3D-C7C7-4800-82EB-CCC659159595}|SchoolProject.Data\\SchoolProject.Data.csproj|solutionrelative:schoolproject.data\\dto\\getfunctionresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFD9A3DA-016C-4260-BD50-E05B6399993E}|SchoolProject.Api\\SchoolProject.Api.csproj|e:\\c#\\schoolproject\\schoolproject.api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFD9A3DA-016C-4260-BD50-E05B6399993E}|SchoolProject.Api\\SchoolProject.Api.csproj|solutionrelative:schoolproject.api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\feature\\instractor\\query\\handler\\instractorqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\feature\\instractor\\query\\handler\\instractorqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33157CB5-4DDE-45B0-AC06-3DE0DBCD6570}|SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj|e:\\c#\\schoolproject\\schoolproject.infrastruture\\moduleinfrastrucuredependiences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33157CB5-4DDE-45B0-AC06-3DE0DBCD6570}|SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj|solutionrelative:schoolproject.infrastruture\\moduleinfrastrucuredependiences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33157CB5-4DDE-45B0-AC06-3DE0DBCD6570}|SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj|e:\\c#\\schoolproject\\schoolproject.infrastruture\\schoolproject.infrastruture.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{33157CB5-4DDE-45B0-AC06-3DE0DBCD6570}|SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj|solutionrelative:schoolproject.infrastruture\\schoolproject.infrastruture.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\Repositiries\\DepartmentRepositiry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SchoolProject.Infrastruture\\Repositiries\\DepartmentRepositiry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\bases\\responsehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\bases\\responsehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\bases\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\bases\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33157CB5-4DDE-45B0-AC06-3DE0DBCD6570}|SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj|e:\\c#\\schoolproject\\schoolproject.infrastruture\\abstract\\iviews\\iviewsrepositiry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33157CB5-4DDE-45B0-AC06-3DE0DBCD6570}|SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj|solutionrelative:schoolproject.infrastruture\\abstract\\iviews\\iviewsrepositiry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\modulecoredependenices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\modulecoredependenices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33157CB5-4DDE-45B0-AC06-3DE0DBCD6570}|SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj|e:\\c#\\schoolproject\\schoolproject.infrastruture\\abstract\\iauthenticationrepositiry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33157CB5-4DDE-45B0-AC06-3DE0DBCD6570}|SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj|solutionrelative:schoolproject.infrastruture\\abstract\\iauthenticationrepositiry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33157CB5-4DDE-45B0-AC06-3DE0DBCD6570}|SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj|e:\\c#\\schoolproject\\schoolproject.infrastruture\\abstract\\idepartmentrepositiry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33157CB5-4DDE-45B0-AC06-3DE0DBCD6570}|SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj|solutionrelative:schoolproject.infrastruture\\abstract\\idepartmentrepositiry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|e:\\c#\\schoolproject\\schoolproject.services\\abstract\\iemailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69B48ACF-1A46-464F-9F59-763BC0B91633}|SchoolProject.Services\\SchoolProject.Services.csproj|solutionrelative:schoolproject.services\\abstract\\iemailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{706F6B3D-C7C7-4800-82EB-CCC659159595}|SchoolProject.Data\\SchoolProject.Data.csproj|e:\\c#\\schoolproject\\schoolproject.data\\helper\\emailsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{706F6B3D-C7C7-4800-82EB-CCC659159595}|SchoolProject.Data\\SchoolProject.Data.csproj|solutionrelative:schoolproject.data\\helper\\emailsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\feature\\emails\\command\\validator\\sendemailvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\feature\\emails\\command\\validator\\sendemailvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\results\\getdepartmentstudentcountprocsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\results\\getdepartmentstudentcountprocsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|e:\\c#\\schoolproject\\schoolproject.core\\feature\\stduent\\queries\\handler\\getstudenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{598857A9-51D0-4426-A903-56FB8AE603F7}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\feature\\stduent\\queries\\handler\\getstudenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -194,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 98,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -234,601 +94,140 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InstractorCommandHandler.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Instractor\\Command\\Handler\\InstractorCommandHandler.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Feature\\Instractor\\Command\\Handler\\InstractorCommandHandler.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Instractor\\Command\\Handler\\InstractorCommandHandler.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Feature\\Instractor\\Command\\Handler\\InstractorCommandHandler.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAqwBEAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T14:27:58.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InstractorController.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Api\\Controllers\\InstractorController.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Api\\Controllers\\InstractorController.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Api\\Controllers\\InstractorController.cs*",
-              "RelativeToolTip": "SchoolProject.Api\\Controllers\\InstractorController.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T15:34:30.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FileServices.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Services\\Implementatios\\FileServices.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Services\\Implementatios\\FileServices.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Services\\Implementatios\\FileServices.cs",
-              "RelativeToolTip": "SchoolProject.Services\\Implementatios\\FileServices.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAmwCwAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T15:04:13.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InstractorServices.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Services\\Implementatios\\InstractorServices.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Services\\Implementatios\\InstractorServices.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Services\\Implementatios\\InstractorServices.cs",
-              "RelativeToolTip": "SchoolProject.Services\\Implementatios\\InstractorServices.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAgwFYAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T15:22:32.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Api\\Program.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Api\\Program.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Api\\Program.cs",
-              "RelativeToolTip": "SchoolProject.Api\\Program.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAQwCAAAABsAAAAAAAAAA==",
+              "Title": "StudentCommandHandler.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Stduent\\Commands\\Handler\\StudentCommandHandler.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Feature\\Stduent\\Commands\\Handler\\StudentCommandHandler.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Stduent\\Commands\\Handler\\StudentCommandHandler.cs",
+              "RelativeToolTip": "SchoolProject.Core\\Feature\\Stduent\\Commands\\Handler\\StudentCommandHandler.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAmwC4AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T15:02:26.464Z",
+              "WhenOpened": "2025-06-10T20:07:39.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "SchoolProject.Api\\appsettings.json",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Api\\appsettings.json",
-              "RelativeToolTip": "SchoolProject.Api\\appsettings.json",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-09T15:55:42.564Z",
+              "Title": "StudentCommandTest.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\Test.School\\CoreTest\\Commands\\StudentCommandTest.cs",
+              "RelativeDocumentMoniker": "Test.School\\CoreTest\\Commands\\StudentCommandTest.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\Test.School\\CoreTest\\Commands\\StudentCommandTest.cs",
+              "RelativeToolTip": "Test.School\\CoreTest\\Commands\\StudentCommandTest.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAADIAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T20:04:37.881Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PassDataUsingClassData.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\Test.School\\Models\\PassDataUsingClassData.cs",
+              "RelativeDocumentMoniker": "Test.School\\Models\\PassDataUsingClassData.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\Test.School\\Models\\PassDataUsingClassData.cs",
+              "RelativeToolTip": "Test.School\\Models\\PassDataUsingClassData.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T13:27:40.258Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Router.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Data\\AppMetaData\\Router.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Data\\AppMetaData\\Router.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Data\\AppMetaData\\Router.cs",
-              "RelativeToolTip": "SchoolProject.Data\\AppMetaData\\Router.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAqwHUAAABIAAAAAAAAAA==",
+              "Title": "CarTestMoq.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\Test.School\\CarTestMoq.cs",
+              "RelativeDocumentMoniker": "Test.School\\CarTestMoq.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\Test.School\\CarTestMoq.cs",
+              "RelativeToolTip": "Test.School\\CarTestMoq.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T15:35:57.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T15:55:25.024Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetDepartmentByIdMapping.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Mapping\\Departments\\QueriesMapping\\GetDepartmentByIdMapping.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Mapping\\Departments\\QueriesMapping\\GetDepartmentByIdMapping.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Mapping\\Departments\\QueriesMapping\\GetDepartmentByIdMapping.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Mapping\\Departments\\QueriesMapping\\GetDepartmentByIdMapping.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "IPaginatedServices.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\Test.School\\Wrapper\\IPaginatedServices.cs",
+              "RelativeDocumentMoniker": "Test.School\\Wrapper\\IPaginatedServices.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\Test.School\\Wrapper\\IPaginatedServices.cs",
+              "RelativeToolTip": "Test.School\\Wrapper\\IPaginatedServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T14:48:08.277Z",
+              "WhenOpened": "2025-05-28T15:47:29.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExtentionMethodTest.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\Test.School\\ExtentionMethodTest.cs",
+              "RelativeDocumentMoniker": "Test.School\\ExtentionMethodTest.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\Test.School\\ExtentionMethodTest.cs",
+              "RelativeToolTip": "Test.School\\ExtentionMethodTest.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAmwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T15:40:15.397Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SchoolProject.Api.csproj",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Api\\SchoolProject.Api.csproj",
-              "RelativeDocumentMoniker": "SchoolProject.Api\\SchoolProject.Api.csproj",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Api\\SchoolProject.Api.csproj*",
-              "RelativeToolTip": "SchoolProject.Api\\SchoolProject.Api.csproj*",
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\Test.School\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "Test.School\\UnitTest1.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\Test.School\\UnitTest1.cs",
+              "RelativeToolTip": "Test.School\\UnitTest1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-11T15:01:58.2Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T13:44:58.248Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AddInstractorMapping.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Mapping\\InstracorMapping\\QueryMapping\\AddInstractorMapping.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Mapping\\InstracorMapping\\QueryMapping\\AddInstractorMapping.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Mapping\\InstracorMapping\\QueryMapping\\AddInstractorMapping.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Mapping\\InstracorMapping\\QueryMapping\\AddInstractorMapping.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "StudentQueryTest.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\Test.School\\CoreTest\\Queries\\StudentQueryTest.cs",
+              "RelativeDocumentMoniker": "Test.School\\CoreTest\\Queries\\StudentQueryTest.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\Test.School\\CoreTest\\Queries\\StudentQueryTest.cs",
+              "RelativeToolTip": "Test.School\\CoreTest\\Queries\\StudentQueryTest.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAABcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T14:46:02.736Z",
+              "WhenOpened": "2025-05-25T13:24:08.657Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PassDataUsingMemerData.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\Test.School\\Models\\PassDataUsingMemerData.cs",
+              "RelativeDocumentMoniker": "Test.School\\Models\\PassDataUsingMemerData.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\Test.School\\Models\\PassDataUsingMemerData.cs",
+              "RelativeToolTip": "Test.School\\Models\\PassDataUsingMemerData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T13:46:33.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PaginatedServices.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\Test.School\\Wrapper\\PaginatedServices.cs",
+              "RelativeDocumentMoniker": "Test.School\\Wrapper\\PaginatedServices.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\Test.School\\Wrapper\\PaginatedServices.cs",
+              "RelativeToolTip": "Test.School\\Wrapper\\PaginatedServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T15:47:54.197Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "InstractorMap.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Mapping\\InstracorMapping\\InstractorMap.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Mapping\\InstracorMapping\\InstractorMap.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Mapping\\InstracorMapping\\InstractorMap.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Mapping\\InstracorMapping\\InstractorMap.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Title": "GetStudentHandler.cs",
+              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Stduent\\Queries\\Handler\\GetStudentHandler.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Feature\\Stduent\\Queries\\Handler\\GetStudentHandler.cs",
+              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Stduent\\Queries\\Handler\\GetStudentHandler.cs",
+              "RelativeToolTip": "SchoolProject.Core\\Feature\\Stduent\\Queries\\Handler\\GetStudentHandler.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAEIAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T14:45:30.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IInstractorServices.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Services\\Abstract\\IInstractorServices.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Services\\Abstract\\IInstractorServices.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Services\\Abstract\\IInstractorServices.cs",
-              "RelativeToolTip": "SchoolProject.Services\\Abstract\\IInstractorServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T14:23:25.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DepartmentQueryHandler.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Department\\Queries\\Handler\\DepartmentQueryHandler.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Feature\\Department\\Queries\\Handler\\DepartmentQueryHandler.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Department\\Queries\\Handler\\DepartmentQueryHandler.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Feature\\Department\\Queries\\Handler\\DepartmentQueryHandler.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAGBnwFcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T14:30:04.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Instructor.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Data\\Entites\\Instructor.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Data\\Entites\\Instructor.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Data\\Entites\\Instructor.cs",
-              "RelativeToolTip": "SchoolProject.Data\\Entites\\Instructor.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBEAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T14:00:57.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IFileServices.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Services\\Abstract\\IFileServices.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Services\\Abstract\\IFileServices.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Services\\Abstract\\IFileServices.cs",
-              "RelativeToolTip": "SchoolProject.Services\\Abstract\\IFileServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T15:03:00.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ModuleServicesBuilder.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Services\\ModuleServicesBuilder.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Services\\ModuleServicesBuilder.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Services\\ModuleServicesBuilder.cs",
-              "RelativeToolTip": "SchoolProject.Services\\ModuleServicesBuilder.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T15:31:11.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IStudentServies.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Services\\Abstract\\IStudentServies.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Services\\Abstract\\IStudentServies.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Services\\Abstract\\IStudentServies.cs",
-              "RelativeToolTip": "SchoolProject.Services\\Abstract\\IStudentServies.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAUAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T14:19:07.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AddInstracorValidator.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Instractor\\Command\\Validator\\AddInstracorValidator.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Feature\\Instractor\\Command\\Validator\\AddInstracorValidator.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Instractor\\Command\\Validator\\AddInstracorValidator.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Feature\\Instractor\\Command\\Validator\\AddInstracorValidator.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAASwDoAAABpAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T14:09:48.466Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "InstractorFunctionRepositiry.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\Repositiries - Copy\\Functions\\InstractorFunctionRepositiry.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Infrastruture\\Repositiries - Copy\\Functions\\InstractorFunctionRepositiry.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\Repositiries - Copy\\Functions\\InstractorFunctionRepositiry.cs",
-              "RelativeToolTip": "SchoolProject.Infrastruture\\Repositiries - Copy\\Functions\\InstractorFunctionRepositiry.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwB0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T15:03:53.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AddInstractorCommand.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Instractor\\Command\\Models\\AddInstractorCommand.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Feature\\Instractor\\Command\\Models\\AddInstractorCommand.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Instractor\\Command\\Models\\AddInstractorCommand.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Feature\\Instractor\\Command\\Models\\AddInstractorCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T14:05:22.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SendResetPasswordValidator.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Authrntication\\Command\\Validation\\SendResetPasswordValidator.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Feature\\Authrntication\\Command\\Validation\\SendResetPasswordValidator.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Authrntication\\Command\\Validation\\SendResetPasswordValidator.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Feature\\Authrntication\\Command\\Validation\\SendResetPasswordValidator.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAIBJwCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T14:12:33.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IAuthenticationServices.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Services\\Abstract\\IAuthenticationServices.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Services\\Abstract\\IAuthenticationServices.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Services\\Abstract\\IAuthenticationServices.cs",
-              "RelativeToolTip": "SchoolProject.Services\\Abstract\\IAuthenticationServices.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAA+wBEAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T17:37:39.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ResetPasswordCommand.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Authrntication\\Command\\Models\\ResetPasswordCommand.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Feature\\Authrntication\\Command\\Models\\ResetPasswordCommand.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Authrntication\\Command\\Models\\ResetPasswordCommand.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Feature\\Authrntication\\Command\\Models\\ResetPasswordCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T17:37:27.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "SendResetPasswordCommand.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Authrntication\\Command\\Models\\SendResetPasswordCommand.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Feature\\Authrntication\\Command\\Models\\SendResetPasswordCommand.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Authrntication\\Command\\Models\\SendResetPasswordCommand.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Feature\\Authrntication\\Command\\Models\\SendResetPasswordCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T17:37:23.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AuthroziationController.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Api\\Controllers\\AuthroziationController.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Api\\Controllers\\AuthroziationController.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Api\\Controllers\\AuthroziationController.cs",
-              "RelativeToolTip": "SchoolProject.Api\\Controllers\\AuthroziationController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T17:36:24.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ApplicationUserController.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Api\\Controllers\\ApplicationUserController.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Api\\Controllers\\ApplicationUserController.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Api\\Controllers\\ApplicationUserController.cs",
-              "RelativeToolTip": "SchoolProject.Api\\Controllers\\ApplicationUserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T17:36:10.417Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "EmailController.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Api\\Controllers\\EmailController.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Api\\Controllers\\EmailController.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Api\\Controllers\\EmailController.cs",
-              "RelativeToolTip": "SchoolProject.Api\\Controllers\\EmailController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAIBQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T15:38:03.423Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Api\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Api\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Api\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "SchoolProject.Api\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwC0AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T15:34:44.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "InstractorQueryHandler.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Instractor\\Query\\Handler\\InstractorQueryHandler.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Feature\\Instractor\\Query\\Handler\\InstractorQueryHandler.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Instractor\\Query\\Handler\\InstractorQueryHandler.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Feature\\Instractor\\Query\\Handler\\InstractorQueryHandler.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB0AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T15:31:56.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Api\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Api\\Controllers\\StudentController.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Api\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "SchoolProject.Api\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T15:38:08.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "GetFunctionResult.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Data\\Dto\\GetFunctionResult.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Data\\Dto\\GetFunctionResult.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Data\\Dto\\GetFunctionResult.cs",
-              "RelativeToolTip": "SchoolProject.Data\\Dto\\GetFunctionResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T15:49:16.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "InstractorRepositiry.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\Repositiries - Copy\\InstractorRepositiry.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Infrastruture\\Repositiries - Copy\\InstractorRepositiry.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\Repositiries - Copy\\InstractorRepositiry.cs",
-              "RelativeToolTip": "SchoolProject.Infrastruture\\Repositiries - Copy\\InstractorRepositiry.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T15:50:44.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "IInsttactorFunctionRepositiry.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\Abstract\\Functions\\IInsttactorFunctionRepositiry.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Infrastruture\\Abstract\\Functions\\IInsttactorFunctionRepositiry.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\Abstract\\Functions\\IInsttactorFunctionRepositiry.cs",
-              "RelativeToolTip": "SchoolProject.Infrastruture\\Abstract\\Functions\\IInsttactorFunctionRepositiry.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T15:18:30.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "SchoolProject.Infrastruture.csproj",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj",
-              "RelativeDocumentMoniker": "SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj",
-              "RelativeToolTip": "SchoolProject.Infrastruture\\SchoolProject.Infrastruture.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-04T15:00:57.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "DepartmentRepositiry.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\Repositiries\\DepartmentRepositiry.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Infrastruture\\Repositiries\\DepartmentRepositiry.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\Repositiries\\DepartmentRepositiry.cs",
-              "RelativeToolTip": "SchoolProject.Infrastruture\\Repositiries\\DepartmentRepositiry.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T14:57:20.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "ResponseHandler.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Bases\\ResponseHandler.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Bases\\ResponseHandler.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Bases\\ResponseHandler.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Bases\\ResponseHandler.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAkwBsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T14:49:00.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Response.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Bases\\Response.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Bases\\Response.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Bases\\Response.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Bases\\Response.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T14:49:00.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "IViewsRepositiry.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\Abstract\\IViews\\IViewsRepositiry.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Infrastruture\\Abstract\\IViews\\IViewsRepositiry.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\Abstract\\IViews\\IViewsRepositiry.cs",
-              "RelativeToolTip": "SchoolProject.Infrastruture\\Abstract\\IViews\\IViewsRepositiry.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T14:45:14.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ModuleInfrastrucureDependiences.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\ModuleInfrastrucureDependiences.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Infrastruture\\ModuleInfrastrucureDependiences.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\ModuleInfrastrucureDependiences.cs",
-              "RelativeToolTip": "SchoolProject.Infrastruture\\ModuleInfrastrucureDependiences.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T14:42:54.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "ModuleCoreDependenices.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\ModuleCoreDependenices.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\ModuleCoreDependenices.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\ModuleCoreDependenices.cs",
-              "RelativeToolTip": "SchoolProject.Core\\ModuleCoreDependenices.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T14:42:34.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "IDepartmentRepositiry.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\Abstract\\IDepartmentRepositiry.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Infrastruture\\Abstract\\IDepartmentRepositiry.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\Abstract\\IDepartmentRepositiry.cs",
-              "RelativeToolTip": "SchoolProject.Infrastruture\\Abstract\\IDepartmentRepositiry.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T14:41:09.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "IAuthenticationRepositiry.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\Abstract\\IAuthenticationRepositiry.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Infrastruture\\Abstract\\IAuthenticationRepositiry.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Infrastruture\\Abstract\\IAuthenticationRepositiry.cs",
-              "RelativeToolTip": "SchoolProject.Infrastruture\\Abstract\\IAuthenticationRepositiry.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T14:40:58.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "IEmailServices.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Services\\Abstract\\IEmailServices.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Services\\Abstract\\IEmailServices.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Services\\Abstract\\IEmailServices.cs",
-              "RelativeToolTip": "SchoolProject.Services\\Abstract\\IEmailServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T15:53:13.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "EmailSetting.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Data\\Helper\\EmailSetting.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Data\\Helper\\EmailSetting.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Data\\Helper\\EmailSetting.cs",
-              "RelativeToolTip": "SchoolProject.Data\\Helper\\EmailSetting.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T15:52:53.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "SendEmailValidator.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Emails\\Command\\Validator\\SendEmailValidator.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Feature\\Emails\\Command\\Validator\\SendEmailValidator.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Feature\\Emails\\Command\\Validator\\SendEmailValidator.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Feature\\Emails\\Command\\Validator\\SendEmailValidator.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAswBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T15:52:27.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "GetDepartmentStudentCountProcsDto.cs",
-              "DocumentMoniker": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Results\\GetDepartmentStudentCountProcsDto.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Results\\GetDepartmentStudentCountProcsDto.cs",
-              "ToolTip": "E:\\C#\\SchoolProject\\SchoolProject.Core\\Results\\GetDepartmentStudentCountProcsDto.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Results\\GetDepartmentStudentCountProcsDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T14:56:06.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T13:28:22.342Z"
             }
           ]
         },

@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "zwWS8fgsIKqN+cba3V9BTEugWjc69nIH4yGGfAN4vT4=",
+  "Hash": "6Hy5oiocTNAFamhutmS2jkIXsky4B75v2OPH5CYtkOI=",
   "Source": "SchoolProject.Api",
   "BasePath": "_content/SchoolProject.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SchoolProject.Api\\wwwroot",
+      "Source": "SchoolProject.Api",
+      "ContentRoot": "E:\\C#\\SchoolProject\\SchoolProject.Api\\wwwroot\\",
+      "BasePath": "_content/SchoolProject.Api",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [],
   "Endpoints": []
 }
